@@ -1,0 +1,36 @@
+Mar 21, 2019 10:36:00 AM com.gargoylesoftware.htmlunit.html.InputElementFactory createElementNS
+INFO: Bad input type: "email", creating a text input
+Mar 21, 2019 10:44:41 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpress_c17f6f24e801b9ad1420171a467e420e=+; expires=Wed, 21-Mar-2018 05:14:41 GMT; Max-Age=-31536000; path=/wp/wp-admin". Negative 'max-age' attribute: -31536000
+Mar 21, 2019 10:44:41 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpress_sec_c17f6f24e801b9ad1420171a467e420e=+; expires=Wed, 21-Mar-2018 05:14:41 GMT; Max-Age=-31536000; path=/wp/wp-admin". Negative 'max-age' attribute: -31536000
+Mar 21, 2019 10:44:41 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpress_c17f6f24e801b9ad1420171a467e420e=+; expires=Wed, 21-Mar-2018 05:14:41 GMT; Max-Age=-31536000; path=/wp/wp-content/plugins". Negative 'max-age' attribute: -31536000
+Mar 21, 2019 10:44:41 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpress_sec_c17f6f24e801b9ad1420171a467e420e=+; expires=Wed, 21-Mar-2018 05:14:41 GMT; Max-Age=-31536000; path=/wp/wp-content/plugins". Negative 'max-age' attribute: -31536000
+Mar 21, 2019 10:44:41 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpress_logged_in_c17f6f24e801b9ad1420171a467e420e=+; expires=Wed, 21-Mar-2018 05:14:41 GMT; Max-Age=-31536000; path=/". Negative 'max-age' attribute: -31536000
+Mar 21, 2019 10:44:41 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpress_logged_in_c17f6f24e801b9ad1420171a467e420e=+; expires=Wed, 21-Mar-2018 05:14:41 GMT; Max-Age=-31536000; path=/wp/". Negative 'max-age' attribute: -31536000
+Mar 21, 2019 10:44:41 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wp-settings-0=+; expires=Wed, 21-Mar-2018 05:14:41 GMT; Max-Age=-31536000; path=/wp/". Negative 'max-age' attribute: -31536000
+Mar 21, 2019 10:44:41 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wp-settings-time-0=+; expires=Wed, 21-Mar-2018 05:14:41 GMT; Max-Age=-31536000; path=/wp/". Negative 'max-age' attribute: -31536000
+Mar 21, 2019 10:44:41 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpress_c17f6f24e801b9ad1420171a467e420e=+; expires=Wed, 21-Mar-2018 05:14:41 GMT; Max-Age=-31536000; path=/". Negative 'max-age' attribute: -31536000
+Mar 21, 2019 10:44:41 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpress_c17f6f24e801b9ad1420171a467e420e=+; expires=Wed, 21-Mar-2018 05:14:41 GMT; Max-Age=-31536000; path=/wp/". Negative 'max-age' attribute: -31536000
+Mar 21, 2019 10:44:41 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpress_sec_c17f6f24e801b9ad1420171a467e420e=+; expires=Wed, 21-Mar-2018 05:14:41 GMT; Max-Age=-31536000; path=/". Negative 'max-age' attribute: -31536000
+Mar 21, 2019 10:44:41 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpress_sec_c17f6f24e801b9ad1420171a467e420e=+; expires=Wed, 21-Mar-2018 05:14:41 GMT; Max-Age=-31536000; path=/wp/". Negative 'max-age' attribute: -31536000
+Mar 21, 2019 10:44:41 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpressuser_c17f6f24e801b9ad1420171a467e420e=+; expires=Wed, 21-Mar-2018 05:14:41 GMT; Max-Age=-31536000; path=/". Negative 'max-age' attribute: -31536000
+Mar 21, 2019 10:44:41 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpresspass_c17f6f24e801b9ad1420171a467e420e=+; expires=Wed, 21-Mar-2018 05:14:41 GMT; Max-Age=-31536000; path=/". Negative 'max-age' attribute: -31536000
+Mar 21, 2019 10:44:41 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpressuser_c17f6f24e801b9ad1420171a467e420e=+; expires=Wed, 21-Mar-2018 05:14:41 GMT; Max-Age=-31536000; path=/wp/". Negative 'max-age' attribute: -31536000
+Mar 21, 2019 10:44:41 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpresspass_c17f6f24e801b9ad1420171a467e420e=+; expires=Wed, 21-Mar-2018 05:14:41 GMT; Max-Age=-31536000; path=/wp/". Negative 'max-age' attribute: -31536000
+Mar 21, 2019 10:45:01 AM com.gargoylesoftware.htmlunit.html.InputElementFactory createElementNS
+INFO: Bad input type: "email", creating a text input

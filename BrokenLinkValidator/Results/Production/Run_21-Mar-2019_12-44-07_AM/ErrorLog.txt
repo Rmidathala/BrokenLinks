@@ -1,0 +1,50 @@
+Mar 21, 2019 12:47:26 AM com.gargoylesoftware.htmlunit.html.InputElementFactory createElementNS
+INFO: Bad input type: "email", creating a text input
+Mar 21, 2019 12:51:35 AM org.apache.http.impl.execchain.RetryExec execute
+INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://www.charbroil.co.uk:443: The target server failed to respond
+Mar 21, 2019 12:51:35 AM org.apache.http.impl.execchain.RetryExec execute
+INFO: Retrying request to {s}->https://www.charbroil.co.uk:443
+Mar 21, 2019 12:51:36 AM org.apache.http.impl.execchain.RetryExec execute
+INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://www.charbroil.co.uk:443: The target server failed to respond
+Mar 21, 2019 12:51:36 AM org.apache.http.impl.execchain.RetryExec execute
+INFO: Retrying request to {s}->https://www.charbroil.co.uk:443
+Mar 21, 2019 12:51:37 AM org.apache.http.impl.execchain.RetryExec execute
+INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://www.charbroil.co.uk:443: The target server failed to respond
+Mar 21, 2019 12:51:37 AM org.apache.http.impl.execchain.RetryExec execute
+INFO: Retrying request to {s}->https://www.charbroil.co.uk:443
+Mar 21, 2019 12:52:42 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpress_c17f6f24e801b9ad1420171a467e420e=+; expires=Tue, 20-Mar-2018 19:22:39 GMT; Max-Age=-31536000; path=/wp/wp-admin". Negative 'max-age' attribute: -31536000
+Mar 21, 2019 12:52:42 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpress_sec_c17f6f24e801b9ad1420171a467e420e=+; expires=Tue, 20-Mar-2018 19:22:39 GMT; Max-Age=-31536000; path=/wp/wp-admin". Negative 'max-age' attribute: -31536000
+Mar 21, 2019 12:52:42 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpress_c17f6f24e801b9ad1420171a467e420e=+; expires=Tue, 20-Mar-2018 19:22:39 GMT; Max-Age=-31536000; path=/wp/wp-content/plugins". Negative 'max-age' attribute: -31536000
+Mar 21, 2019 12:52:42 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpress_sec_c17f6f24e801b9ad1420171a467e420e=+; expires=Tue, 20-Mar-2018 19:22:39 GMT; Max-Age=-31536000; path=/wp/wp-content/plugins". Negative 'max-age' attribute: -31536000
+Mar 21, 2019 12:52:42 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpress_logged_in_c17f6f24e801b9ad1420171a467e420e=+; expires=Tue, 20-Mar-2018 19:22:39 GMT; Max-Age=-31536000; path=/". Negative 'max-age' attribute: -31536000
+Mar 21, 2019 12:52:42 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpress_logged_in_c17f6f24e801b9ad1420171a467e420e=+; expires=Tue, 20-Mar-2018 19:22:39 GMT; Max-Age=-31536000; path=/wp/". Negative 'max-age' attribute: -31536000
+Mar 21, 2019 12:52:42 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wp-settings-0=+; expires=Tue, 20-Mar-2018 19:22:39 GMT; Max-Age=-31536000; path=/wp/". Negative 'max-age' attribute: -31536000
+Mar 21, 2019 12:52:42 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wp-settings-time-0=+; expires=Tue, 20-Mar-2018 19:22:39 GMT; Max-Age=-31536000; path=/wp/". Negative 'max-age' attribute: -31536000
+Mar 21, 2019 12:52:42 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpress_c17f6f24e801b9ad1420171a467e420e=+; expires=Tue, 20-Mar-2018 19:22:39 GMT; Max-Age=-31536000; path=/". Negative 'max-age' attribute: -31536000
+Mar 21, 2019 12:52:42 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpress_c17f6f24e801b9ad1420171a467e420e=+; expires=Tue, 20-Mar-2018 19:22:39 GMT; Max-Age=-31536000; path=/wp/". Negative 'max-age' attribute: -31536000
+Mar 21, 2019 12:52:42 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpress_sec_c17f6f24e801b9ad1420171a467e420e=+; expires=Tue, 20-Mar-2018 19:22:39 GMT; Max-Age=-31536000; path=/". Negative 'max-age' attribute: -31536000
+Mar 21, 2019 12:52:42 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpress_sec_c17f6f24e801b9ad1420171a467e420e=+; expires=Tue, 20-Mar-2018 19:22:39 GMT; Max-Age=-31536000; path=/wp/". Negative 'max-age' attribute: -31536000
+Mar 21, 2019 12:52:42 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpressuser_c17f6f24e801b9ad1420171a467e420e=+; expires=Tue, 20-Mar-2018 19:22:39 GMT; Max-Age=-31536000; path=/". Negative 'max-age' attribute: -31536000
+Mar 21, 2019 12:52:42 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpresspass_c17f6f24e801b9ad1420171a467e420e=+; expires=Tue, 20-Mar-2018 19:22:39 GMT; Max-Age=-31536000; path=/". Negative 'max-age' attribute: -31536000
+Mar 21, 2019 12:52:42 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpressuser_c17f6f24e801b9ad1420171a467e420e=+; expires=Tue, 20-Mar-2018 19:22:39 GMT; Max-Age=-31536000; path=/wp/". Negative 'max-age' attribute: -31536000
+Mar 21, 2019 12:52:42 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpresspass_c17f6f24e801b9ad1420171a467e420e=+; expires=Tue, 20-Mar-2018 19:22:39 GMT; Max-Age=-31536000; path=/wp/". Negative 'max-age' attribute: -31536000
+Mar 21, 2019 12:57:10 AM org.apache.http.impl.execchain.RetryExec execute
+INFO: I/O exception (java.net.SocketException) caught when processing request to {s}->https://omx.zebcobrands.com:443: Connection reset
+Mar 21, 2019 12:57:27 AM org.apache.http.impl.execchain.RetryExec execute
+INFO: Retrying request to {s}->https://omx.zebcobrands.com:443

@@ -1,0 +1,1113 @@
+<!DOCTYPE html> 
+<html> 
+	 <head> 
+		 <meta charset='UTF-8'> 
+		 <title>Broken Link Validator  - BrokenLinkScenario_Validate_ApplicationURL_Links_Instance1 Automation Execution Results</title> 
+
+		 <style type='text/css'> 
+			 body { 
+				 background-color: #C1E1A6; 
+				 font-family: Verdana, Geneva, sans-serif; 
+				 text-align: center; 
+			 } 
+
+			 small { 
+				 font-size: 0.7em; 
+			 } 
+
+			 table { 
+				 width: 95%; 
+				 margin-left: auto; 
+				 margin-right: auto; 
+			 } 
+
+			 tr.heading { 
+				 background-color: #A9D0F5; 
+				 color: #000000; 
+				 font-size: 0.9em; 
+				 font-weight: bold; 
+			 } 
+
+			 tr.subheading { 
+				 background-color: #E0E6F8; 
+				 color: #34495E; 
+				 font-weight: bold; 
+				 font-size: 0.9em; 
+				 text-align: justify; 
+			 } 
+
+			 tr.section { 
+				 background-color: #E0E6F8; 
+				 color: #333300; 
+				 cursor: pointer; 
+				 font-weight: bold; 
+				 font-size: 0.9em; 
+				 text-align: justify; 
+			 } 
+
+			 tr.subsection { 
+				 background-color: #EDEEF0; 
+				 cursor: pointer; 
+			 } 
+
+			 tr.content { 
+				 background-color: #EDEEF0; 
+				 color: #000000; 
+				 font-size: 0.9em; 
+				 display: table-row; 
+			 } 
+
+			 td { 
+				 padding: 4px; 
+				 text-align: inherit\0/; 
+				 word-wrap: break-word; 
+				 max-width: 450px; 
+			 } 
+
+			 th { 
+				 padding: 4px; 
+				 text-align: inherit\0/; 
+				 word-break: break-all; 
+				 max-width: 450px; 
+			 } 
+
+			 td.justified { 
+				 text-align: justify; 
+			 } 
+
+			 td.pass { 
+				 font-weight: bold; 
+				 color: green; 
+			 } 
+
+			 td.fail { 
+				 font-weight: bold; 
+				 color: red; 
+			 } 
+
+			 td.done, td.screenshot { 
+				 font-weight: bold; 
+				 color: black; 
+			 } 
+
+			 td.debug { 
+				 font-weight: bold; 
+				 color: blue; 
+			 } 
+
+			 td.warning { 
+				 font-weight: bold; 
+				 color: orange; 
+			 } 
+			 img { 
+				 width:400px; 
+				 height:300px; 
+			 } 
+		 </style> 
+
+		 <script> 
+			 function toggleMenu(objID) { 
+				 if (!document.getElementById) return; 
+				 var ob = document.getElementById(objID).style; 
+				 if(ob.display === 'none') { 
+					 try { 
+						 ob.display='table-row-group'; 
+					 } catch(ex) { 
+						 ob.display='block'; 
+					 } 
+				 } 
+				 else { 
+					 ob.display='none'; 
+				 } 
+			 } 
+			 function toggleSubMenu(objId) { 
+				 for(i=1; i<10000; i++) { 
+					 var ob = document.getElementById(objId.concat(i)); 
+					 if(ob === null) { 
+						 break; 
+					 } 
+					 if(ob.style.display === 'none') { 
+						 try { 
+							 ob.style.display='table-row'; 
+						 } catch(ex) { 
+							 ob.style.display='block'; 
+						 } 
+					 } 
+					 else { 
+						 ob.style.display='none'; 
+					 } 
+				 } 
+			 } 
+		 </script> 
+	 </head> 
+
+	 <body> 
+		 <table id='header'> 
+			 <thead> 
+				 <tr class='heading'> 
+					 <th colspan='4' style='font-family:Copperplate Gothic; font-size:1.4em;'> 
+						 Broken Link Validator  - BrokenLinkScenario_Validate_ApplicationURL_Links_Instance1 Automation Execution Results 
+					 </th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <th>&nbsp;Date&nbsp;&&nbsp;Time</th> 
+					 <th>&nbsp;:&nbsp;21-Mar-2019&nbsp;05:01:30&nbsp;PM</th> 
+					 <th>&nbsp;Iteration&nbsp;Mode</th> 
+					 <th>&nbsp;:&nbsp;RUN_ONE_ITERATION_ONLY</th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <th>&nbsp;Start&nbsp;Iteration</th> 
+					 <th>&nbsp;:&nbsp;1</th> 
+					 <th>&nbsp;End&nbsp;Iteration</th> 
+					 <th>&nbsp;:&nbsp;1</th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <th>&nbsp;Browser/Platform</th> 
+					 <th>&nbsp;:&nbsp;CHROME&nbsp;on&nbsp;WINDOWS</th> 
+					 <th>&nbsp;Execution&nbsp;on</th> 
+					 <th>&nbsp;:&nbsp;Local&nbsp;Machine</th> 
+				 </tr> 
+			 </thead> 
+		 </table> 
+
+		 <table id='main'> 
+			 <thead> 
+				 <tr class='heading'> 
+					 <th>Step No</th> 
+					 <th>Step Name</th> 
+					 <th>Description</th> 
+					 <th>Status</th> 
+					 <th>Step Time</th> 
+					 <th>ScreenShot</th> 
+				 </tr> 
+			 </thead> 
+
+			 <tbody> 
+				 <tr class='section'> 
+					 <td colspan='6' onclick="toggleMenu('Iteration1')">+ Iteration: 1</td> 
+				 </tr> 
+			 </tbody> 
+			 <tbody id='Iteration1' style='display:table-row-group'> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1invokeApplication')">&nbsp;+ invokeApplication</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1invokeApplication1'> 
+					 <td>1</td> 
+					 <td class='justified'>Invoke Application</td> 
+					 <td class='justified'>Application invoked.</td> 
+					 <td>DONE</td> 
+					 <td><small>21-Mar-2019 05:01:33 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1verifyBrokenLinks')">&nbsp;+ verifyBrokenLinks</td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1URLnamehttpswwwcharbroilcomshopTotallinks135')">&nbsp;+ URL name - https://www.charbroil.com/shop (Total links - 135)</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks1351'> 
+					 <td>2</td> 
+					 <td class='justified'>https://www.charbroil.com/accessories/cookware-rotisseries</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:49 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks1352'> 
+					 <td>3</td> 
+					 <td class='justified'>https://www.charbroil.com/accessories/charcoal-smoker-accessories</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:49 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks1353'> 
+					 <td>4</td> 
+					 <td class='justified'>https://www.charbroil.com/accessories/outdoor-kitchen-accessories</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:49 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks1354'> 
+					 <td>5</td> 
+					 <td class='justified'>https://www.charbroil.com/accessories/other-accessories</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:49 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks1355'> 
+					 <td>6</td> 
+					 <td class='justified'>https://www.charbroil.com/accessories/universal-parts</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:49 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks1356'> 
+					 <td>7</td> 
+					 <td class='justified'>https://www.charbroil.com/on-sale</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:49 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks1357'> 
+					 <td>8</td> 
+					 <td class='justified'>https://www.charbroil.com/replacement-parts</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:49 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks1358'> 
+					 <td>9</td> 
+					 <td class='justified'>https://www.charbroil.com/universal-parts</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:49 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks1359'> 
+					 <td>10</td> 
+					 <td class='justified'>https://www.charbroil.com/universal-parts/grates-and-emitters</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:49 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13510'> 
+					 <td>11</td> 
+					 <td class='justified'>https://support.charbroil.com/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:49 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13511'> 
+					 <td>12</td> 
+					 <td class='justified'>https://www.charbroil.com/on-sale</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:49 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13512'> 
+					 <td>13</td> 
+					 <td class='justified'>https://www.charbroil.com/cook</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:49 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13513'> 
+					 <td>14</td> 
+					 <td class='justified'>https://www.charbroil.com/cook</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:49 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13514'> 
+					 <td>15</td> 
+					 <td class='justified'>https://www.charbroil.com/recipes#idx=wp_searchable_posts&q=&fR[post_type][0]=recipe&fR[taxonomies.recipe-ingredient][0]=Chicken</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:49 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13515'> 
+					 <td>16</td> 
+					 <td class='justified'>https://www.charbroil.com/recipes#idx=wp_searchable_posts&q=&fR[post_type][0]=recipe&fR[taxonomies.recipe-ingredient][0]=Pork</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:49 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13516'> 
+					 <td>17</td> 
+					 <td class='justified'>https://www.charbroil.com/recipes#idx=wp_searchable_posts&q=&fR[post_type][0]=recipe&fR[taxonomies.recipe-ingredient][0]=Beef</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13517'> 
+					 <td>18</td> 
+					 <td class='justified'>https://www.charbroil.com/recipes#idx=wp_searchable_posts&q=&fR[post_type][0]=recipe&fR[taxonomies.recipe-ingredient][0]=Turkey</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13518'> 
+					 <td>19</td> 
+					 <td class='justified'>https://www.charbroil.com/recipes#idx=wp_searchable_posts&q=&fR[post_type][0]=recipe&fR[taxonomies.recipe-ingredient][0]=Vegetables</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13519'> 
+					 <td>20</td> 
+					 <td class='justified'>https://www.charbroil.com/recipes#idx=wp_searchable_posts&q=&fR[post_type][0]=recipe&fR[taxonomies.recipe-ingredient][0]=Seafood</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13520'> 
+					 <td>21</td> 
+					 <td class='justified'>https://www.charbroil.com/recipes#idx=wp_searchable_posts&q=&fR[post_type][0]=recipe&fR[taxonomies.recipe-ingredient][0]=Lamb</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13521'> 
+					 <td>22</td> 
+					 <td class='justified'>https://www.charbroil.com/recipes#idx=wp_searchable_posts&q=&fR[post_type][0]=recipe&fR[taxonomies.recipe-ingredient][0]=Fruit</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13522'> 
+					 <td>23</td> 
+					 <td class='justified'>https://www.charbroil.com/collections</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13523'> 
+					 <td>24</td> 
+					 <td class='justified'>https://www.charbroil.com/collections/burger-hall-of-fame/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13524'> 
+					 <td>25</td> 
+					 <td class='justified'>https://www.charbroil.com/collections/keep-it-lean/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13525'> 
+					 <td>26</td> 
+					 <td class='justified'>https://www.charbroil.com/collections/top-notch-tacos/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13526'> 
+					 <td>27</td> 
+					 <td class='justified'>https://www.charbroil.com/collections/big-easy-recipes/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13527'> 
+					 <td>28</td> 
+					 <td class='justified'>https://www.charbroil.com/collections/snack-it-up/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13528'> 
+					 <td>29</td> 
+					 <td class='justified'>https://www.charbroil.com/collections/digital-electric-smoker-recipes/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13529'> 
+					 <td>30</td> 
+					 <td class='justified'>https://www.charbroil.com/cook/grilled-herbed-beer-can-chicken-soup/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13530'> 
+					 <td>31</td> 
+					 <td class='justified'>https://www.charbroil.com/cook/smoked-cornbread/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13531'> 
+					 <td>32</td> 
+					 <td class='justified'>https://www.charbroil.com/learn</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13532'> 
+					 <td>33</td> 
+					 <td class='justified'>https://www.charbroil.com/learn/courses/gas-grill-basics/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13533'> 
+					 <td>34</td> 
+					 <td class='justified'>https://www.charbroil.com/learn/courses/gas-grill-basics/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13534'> 
+					 <td>35</td> 
+					 <td class='justified'>https://www.charbroil.com/learn/courses/steak-101/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13535'> 
+					 <td>36</td> 
+					 <td class='justified'>https://www.charbroil.com/learn/courses/steak-101/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13536'> 
+					 <td>37</td> 
+					 <td class='justified'>https://www.charbroil.com/learn/courses/smoking-with-the-des/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13537'> 
+					 <td>38</td> 
+					 <td class='justified'>https://www.charbroil.com/learn/courses/smoking-with-the-des/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13538'> 
+					 <td>39</td> 
+					 <td class='justified'>https://www.charbroil.com/learn/courses/charcoal-grill-basics/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13539'> 
+					 <td>40</td> 
+					 <td class='justified'>https://www.charbroil.com/learn/courses/charcoal-grill-basics/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13540'> 
+					 <td>41</td> 
+					 <td class='justified'>https://www.charbroil.com/learn/courses/grilling-101/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13541'> 
+					 <td>42</td> 
+					 <td class='justified'>https://www.charbroil.com/learn/courses/grilling-101/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13542'> 
+					 <td>43</td> 
+					 <td class='justified'>https://www.charbroil.com/learn/herb-and-spice-substitution-chart/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13543'> 
+					 <td>44</td> 
+					 <td class='justified'>https://www.charbroil.com/learn/smoking-time-electric-smoker/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13544'> 
+					 <td>45</td> 
+					 <td class='justified'>http://support.charbroil.com</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13545'> 
+					 <td>46</td> 
+					 <td class='justified'>http://support.charbroil.com</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13546'> 
+					 <td>47</td> 
+					 <td class='justified'>https://www.charbroil.com/help/gas</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13547'> 
+					 <td>48</td> 
+					 <td class='justified'>https://www.charbroil.com/help/charcoal</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13548'> 
+					 <td>49</td> 
+					 <td class='justified'>https://www.charbroil.com/help/electric</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13549'> 
+					 <td>50</td> 
+					 <td class='justified'>https://www.charbroil.com/help/smoker-roaster</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13550'> 
+					 <td>51</td> 
+					 <td class='justified'>https://www.charbroil.com/help/smartchef</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13551'> 
+					 <td>52</td> 
+					 <td class='justified'>http://support.charbroil.com</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13552'> 
+					 <td>53</td> 
+					 <td class='justified'>http://support.charbroil.com/product-registration</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13553'> 
+					 <td>54</td> 
+					 <td class='justified'>http://support.charbroil.com/help/manuals</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13554'> 
+					 <td>55</td> 
+					 <td class='justified'>http://support.charbroil.com/help/warranty</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13555'> 
+					 <td>56</td> 
+					 <td class='justified'>https://www.charbroil.com/recalls</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13556'> 
+					 <td>57</td> 
+					 <td class='justified'>https://www.charbroil.com/promo-policy</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13557'> 
+					 <td>58</td> 
+					 <td class='justified'>http://support.charbroil.com</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13558'> 
+					 <td>59</td> 
+					 <td class='justified'>https://www.charbroil.com/return-policy</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13559'> 
+					 <td>60</td> 
+					 <td class='justified'>https://www.charbroil.com/shipping-policy</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13560'> 
+					 <td>61</td> 
+					 <td class='justified'>https://www.charbroil.com/wcb_sales/guest/orderLookup/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13561'> 
+					 <td>62</td> 
+					 <td class='justified'>http://support.charbroil.com/help/caselookup</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13562'> 
+					 <td>63</td> 
+					 <td class='justified'>http://support.charbroil.com/product-registration</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13563'> 
+					 <td>64</td> 
+					 <td class='justified'>https://www.charbroil.com/customer/account/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13564'> 
+					 <td>65</td> 
+					 <td class='justified'>http://charbroil.fr</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13565'> 
+					 <td>66</td> 
+					 <td class='justified'>http://charbroil.dk</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13566'> 
+					 <td>67</td> 
+					 <td class='justified'>http://charbroil.de</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13567'> 
+					 <td>68</td> 
+					 <td class='justified'>http://charbroil.eu</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13568'> 
+					 <td>69</td> 
+					 <td class='justified'>https://www.charbroil.com/checkout/cart/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13569'> 
+					 <td>70</td> 
+					 <td class='justified'>https://www.charbroil.com/shop?PageSpeed=noscript#</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13570'> 
+					 <td>71</td> 
+					 <td class='justified'>http://support.charbroil.com/help/warranty/find-my-model</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13571'> 
+					 <td>72</td> 
+					 <td class='justified'>https://www.charbroil.com/parts</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13572'> 
+					 <td>73</td> 
+					 <td class='justified'>https://support.charbroil.com/help/general/find-my-model</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13573'> 
+					 <td>74</td> 
+					 <td class='justified'>https://www.charbroil.com/grills/gas-grills</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13574'> 
+					 <td>75</td> 
+					 <td class='justified'>https://www.charbroil.com/grills/charcoal-grills</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13575'> 
+					 <td>76</td> 
+					 <td class='justified'>https://www.charbroil.com/grills/electric-grills</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13576'> 
+					 <td>77</td> 
+					 <td class='justified'>https://www.charbroil.com/smokers-and-fryers</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13577'> 
+					 <td>78</td> 
+					 <td class='justified'>https://www.charbroil.com/smokers-and-fryers/oil-less-fryers</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13578'> 
+					 <td>79</td> 
+					 <td class='justified'>https://www.charbroil.com/on-sale</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13579'> 
+					 <td>80</td> 
+					 <td class='justified'>https://www.charbroil.com/signature-3-burner-tru-infrared-gas-grill</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13580'> 
+					 <td>81</td> 
+					 <td class='justified'>https://support.charbroil.com/help/general/find-my-model</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13581'> 
+					 <td>82</td> 
+					 <td class='justified'>https://www.charbroil.com/cook/lemon-pepper-thanksgiving-turkey-cranberry-sauce/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13582'> 
+					 <td>83</td> 
+					 <td class='justified'>https://www.charbroil.com/cook/grilled-surf-turf/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13583'> 
+					 <td>84</td> 
+					 <td class='justified'>https://www.charbroil.com/cook/ultimate-chili-cheese-nachos/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13584'> 
+					 <td>85</td> 
+					 <td class='justified'>https://www.charbroil.com/cook/smoked-bone-chicken/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13585'> 
+					 <td>86</td> 
+					 <td class='justified'>https://www.charbroil.com/recipes</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13586'> 
+					 <td>87</td> 
+					 <td class='justified'>https://www.charbroil.com/deluxe-digital-electric-smoker</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13587'> 
+					 <td>88</td> 
+					 <td class='justified'>https://www.charbroil.com/modularoutdoorkitchen</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13588'> 
+					 <td>89</td> 
+					 <td class='justified'>https://www.charbroil.com/grills/tru-infrared-grills</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13589'> 
+					 <td>90</td> 
+					 <td class='justified'>https://www.charbroil.com/catalogsearch/result/?q=grills#q=grills&idx=magento_default_products_price_default_asc&p=0&hFR%5Bcategories.level0%5D%5B0%5D=Grills&nR%5Bprice.USD.default%5D%5B%3C%3D%5D%5B0%5D=199&is_v=1</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13590'> 
+					 <td>91</td> 
+					 <td class='justified'>tel:1-866-239-6777</td> 
+					 <td class='justified'>Not correct form URL.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13591'> 
+					 <td>92</td> 
+					 <td class='justified'>http://support.charbroil.com/help/contact</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13592'> 
+					 <td>93</td> 
+					 <td class='justified'>http://support.charbroil.com</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13593'> 
+					 <td>94</td> 
+					 <td class='justified'>http://support.charbroil.com</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13594'> 
+					 <td>95</td> 
+					 <td class='justified'>http://support.charbroil.com</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13595'> 
+					 <td>96</td> 
+					 <td class='justified'>https://www.charbroil.com/parts</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13596'> 
+					 <td>97</td> 
+					 <td class='justified'>https://www.charbroil.com/why-charbroil</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13597'> 
+					 <td>98</td> 
+					 <td class='justified'>https://jobs.wcbradley.com/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13598'> 
+					 <td>99</td> 
+					 <td class='justified'>http://www.sabergrills.com/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks13599'> 
+					 <td>100</td> 
+					 <td class='justified'>http://www.dancookusa.com/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks135100'> 
+					 <td>101</td> 
+					 <td class='justified'>http://www.oklahomajoes.com/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks135101'> 
+					 <td>102</td> 
+					 <td class='justified'>http://www.submitmyinvention.com/submit/charbroil</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks135102'> 
+					 <td>103</td> 
+					 <td class='justified'>http://www.facebook.com/charbroil</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks135103'> 
+					 <td>104</td> 
+					 <td class='justified'>https://www.pinterest.com/charbroil/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks135104'> 
+					 <td>105</td> 
+					 <td class='justified'>https://instagram.com/charbroilgrills</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks135105'> 
+					 <td>106</td> 
+					 <td class='justified'>https://www.youtube.com/user/charbroil/featured</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks135106'> 
+					 <td>107</td> 
+					 <td class='justified'>http://www.twitter.com/charbroil</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks135107'> 
+					 <td>108</td> 
+					 <td class='justified'>https://www.charbroil.com/privacy-policy</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks135108'> 
+					 <td>109</td> 
+					 <td class='justified'>https://www.charbroil.com/terms-of-use</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks135109'> 
+					 <td>110</td> 
+					 <td class='justified'>https://www.charbroil.com/accessibility</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwcharbroilcomshopTotallinks135110'> 
+					 <td>111</td> 
+					 <td class='justified'>https://www.charbroil.com/supply-chains-act/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:09:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1URLnamehttprapidsriverfrontplacecomTotallinks0')">&nbsp;+ URL name - http://rapids-riverfrontplace.com/ (Total links - 0)</td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1URLnamehttpwwwdancookdkTotallinks0')">&nbsp;+ URL name - http://www.dancook.dk/ (Total links - 0)</td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1URLnamehttpswwwcharbroilfrTotallinks0')">&nbsp;+ URL name - https://www.charbroil.fr (Total links - 0)</td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1URLnamehttpswwwcharbroileuTotallinks0')">&nbsp;+ URL name - https://www.charbroil.eu (Total links - 0)</td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1URLnamehttpcharbroileuwpadminTotallinks0')">&nbsp;+ URL name - http://charbroil.eu/wp-admin (Total links - 0)</td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1URLnamehttpswwwzebcocomwpadminTotallinks136')">&nbsp;+ URL name - https://www.zebco.com/wp-admin (Total links - 136)</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1URLnamehttpswwwzebcocomwpadminTotallinks1361'> 
+					 <td>112</td> 
+					 <td class='justified'>https://www.zebco.com/wp-admin#contentarea</td> 
+					 <td class='justified'>Response Code : 404; Response Message : Not Found</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>21-Mar-2019 05:15:06 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 

@@ -1,0 +1,54 @@
+Mar 20, 2019 11:40:32 PM com.gargoylesoftware.htmlunit.html.InputElementFactory createElementNS
+INFO: Bad input type: "email", creating a text input
+Mar 20, 2019 11:44:54 PM org.apache.http.impl.execchain.RetryExec execute
+INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://www.charbroil.co.uk:443: The target server failed to respond
+Mar 20, 2019 11:44:54 PM org.apache.http.impl.execchain.RetryExec execute
+INFO: Retrying request to {s}->https://www.charbroil.co.uk:443
+Mar 20, 2019 11:44:55 PM org.apache.http.impl.execchain.RetryExec execute
+INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://www.charbroil.co.uk:443: The target server failed to respond
+Mar 20, 2019 11:44:55 PM org.apache.http.impl.execchain.RetryExec execute
+INFO: Retrying request to {s}->https://www.charbroil.co.uk:443
+Mar 20, 2019 11:44:56 PM org.apache.http.impl.execchain.RetryExec execute
+INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://www.charbroil.co.uk:443: The target server failed to respond
+Mar 20, 2019 11:44:56 PM org.apache.http.impl.execchain.RetryExec execute
+INFO: Retrying request to {s}->https://www.charbroil.co.uk:443
+Mar 20, 2019 11:46:01 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpress_c17f6f24e801b9ad1420171a467e420e=+; expires=Tue, 20-Mar-2018 18:16:01 GMT; Max-Age=-31536000; path=/wp/wp-admin". Negative 'max-age' attribute: -31536000
+Mar 20, 2019 11:46:01 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpress_sec_c17f6f24e801b9ad1420171a467e420e=+; expires=Tue, 20-Mar-2018 18:16:01 GMT; Max-Age=-31536000; path=/wp/wp-admin". Negative 'max-age' attribute: -31536000
+Mar 20, 2019 11:46:01 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpress_c17f6f24e801b9ad1420171a467e420e=+; expires=Tue, 20-Mar-2018 18:16:01 GMT; Max-Age=-31536000; path=/wp/wp-content/plugins". Negative 'max-age' attribute: -31536000
+Mar 20, 2019 11:46:01 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpress_sec_c17f6f24e801b9ad1420171a467e420e=+; expires=Tue, 20-Mar-2018 18:16:01 GMT; Max-Age=-31536000; path=/wp/wp-content/plugins". Negative 'max-age' attribute: -31536000
+Mar 20, 2019 11:46:01 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpress_logged_in_c17f6f24e801b9ad1420171a467e420e=+; expires=Tue, 20-Mar-2018 18:16:01 GMT; Max-Age=-31536000; path=/". Negative 'max-age' attribute: -31536000
+Mar 20, 2019 11:46:01 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpress_logged_in_c17f6f24e801b9ad1420171a467e420e=+; expires=Tue, 20-Mar-2018 18:16:01 GMT; Max-Age=-31536000; path=/wp/". Negative 'max-age' attribute: -31536000
+Mar 20, 2019 11:46:01 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wp-settings-0=+; expires=Tue, 20-Mar-2018 18:16:01 GMT; Max-Age=-31536000; path=/wp/". Negative 'max-age' attribute: -31536000
+Mar 20, 2019 11:46:01 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wp-settings-time-0=+; expires=Tue, 20-Mar-2018 18:16:01 GMT; Max-Age=-31536000; path=/wp/". Negative 'max-age' attribute: -31536000
+Mar 20, 2019 11:46:01 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpress_c17f6f24e801b9ad1420171a467e420e=+; expires=Tue, 20-Mar-2018 18:16:01 GMT; Max-Age=-31536000; path=/". Negative 'max-age' attribute: -31536000
+Mar 20, 2019 11:46:01 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpress_c17f6f24e801b9ad1420171a467e420e=+; expires=Tue, 20-Mar-2018 18:16:01 GMT; Max-Age=-31536000; path=/wp/". Negative 'max-age' attribute: -31536000
+Mar 20, 2019 11:46:01 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpress_sec_c17f6f24e801b9ad1420171a467e420e=+; expires=Tue, 20-Mar-2018 18:16:01 GMT; Max-Age=-31536000; path=/". Negative 'max-age' attribute: -31536000
+Mar 20, 2019 11:46:01 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpress_sec_c17f6f24e801b9ad1420171a467e420e=+; expires=Tue, 20-Mar-2018 18:16:01 GMT; Max-Age=-31536000; path=/wp/". Negative 'max-age' attribute: -31536000
+Mar 20, 2019 11:46:01 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpressuser_c17f6f24e801b9ad1420171a467e420e=+; expires=Tue, 20-Mar-2018 18:16:01 GMT; Max-Age=-31536000; path=/". Negative 'max-age' attribute: -31536000
+Mar 20, 2019 11:46:01 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpresspass_c17f6f24e801b9ad1420171a467e420e=+; expires=Tue, 20-Mar-2018 18:16:01 GMT; Max-Age=-31536000; path=/". Negative 'max-age' attribute: -31536000
+Mar 20, 2019 11:46:01 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpressuser_c17f6f24e801b9ad1420171a467e420e=+; expires=Tue, 20-Mar-2018 18:16:01 GMT; Max-Age=-31536000; path=/wp/". Negative 'max-age' attribute: -31536000
+Mar 20, 2019 11:46:01 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: wordpresspass_c17f6f24e801b9ad1420171a467e420e=+; expires=Tue, 20-Mar-2018 18:16:01 GMT; Max-Age=-31536000; path=/wp/". Negative 'max-age' attribute: -31536000
+Exception in thread "pool-1-thread-1" java.lang.ClassCastException: java.lang.OutOfMemoryError cannot be cast to java.lang.Exception
+	at supportlibraries.DriverScript.executeCRAFTTestIterations(DriverScript.java:896)
+	at supportlibraries.DriverScript.executeCraftOrCraftLite(DriverScript.java:170)
+	at supportlibraries.DriverScript.driveTestExecution(DriverScript.java:161)
+	at allocator.ParallelRunner.run(ParallelRunner.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)

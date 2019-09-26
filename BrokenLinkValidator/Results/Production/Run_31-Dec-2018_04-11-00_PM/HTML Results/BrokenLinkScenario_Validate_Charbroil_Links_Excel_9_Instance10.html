@@ -1,0 +1,1784 @@
+<!DOCTYPE html> 
+<html> 
+	 <head> 
+		 <meta charset='UTF-8'> 
+		 <title>Broken Link Validator  - BrokenLinkScenario_Validate_Charbroil_Links_Excel_9_Instance10 Automation Execution Results</title> 
+
+		 <style type='text/css'> 
+			 body { 
+				 background-color: #C1E1A6; 
+				 font-family: Verdana, Geneva, sans-serif; 
+				 text-align: center; 
+			 } 
+
+			 small { 
+				 font-size: 0.7em; 
+			 } 
+
+			 table { 
+				 width: 95%; 
+				 margin-left: auto; 
+				 margin-right: auto; 
+			 } 
+
+			 tr.heading { 
+				 background-color: #A9D0F5; 
+				 color: #000000; 
+				 font-size: 0.9em; 
+				 font-weight: bold; 
+			 } 
+
+			 tr.subheading { 
+				 background-color: #E0E6F8; 
+				 color: #34495E; 
+				 font-weight: bold; 
+				 font-size: 0.9em; 
+				 text-align: justify; 
+			 } 
+
+			 tr.section { 
+				 background-color: #E0E6F8; 
+				 color: #333300; 
+				 cursor: pointer; 
+				 font-weight: bold; 
+				 font-size: 0.9em; 
+				 text-align: justify; 
+			 } 
+
+			 tr.subsection { 
+				 background-color: #EDEEF0; 
+				 cursor: pointer; 
+			 } 
+
+			 tr.content { 
+				 background-color: #EDEEF0; 
+				 color: #000000; 
+				 font-size: 0.9em; 
+				 display: table-row; 
+			 } 
+
+			 td { 
+				 padding: 4px; 
+				 text-align: inherit\0/; 
+				 word-wrap: break-word; 
+				 max-width: 450px; 
+			 } 
+
+			 th { 
+				 padding: 4px; 
+				 text-align: inherit\0/; 
+				 word-break: break-all; 
+				 max-width: 450px; 
+			 } 
+
+			 td.justified { 
+				 text-align: justify; 
+			 } 
+
+			 td.pass { 
+				 font-weight: bold; 
+				 color: green; 
+			 } 
+
+			 td.fail { 
+				 font-weight: bold; 
+				 color: red; 
+			 } 
+
+			 td.done, td.screenshot { 
+				 font-weight: bold; 
+				 color: black; 
+			 } 
+
+			 td.debug { 
+				 font-weight: bold; 
+				 color: blue; 
+			 } 
+
+			 td.warning { 
+				 font-weight: bold; 
+				 color: orange; 
+			 } 
+			 img { 
+				 width:400px; 
+				 height:300px; 
+			 } 
+		 </style> 
+
+		 <script> 
+			 function toggleMenu(objID) { 
+				 if (!document.getElementById) return; 
+				 var ob = document.getElementById(objID).style; 
+				 if(ob.display === 'none') { 
+					 try { 
+						 ob.display='table-row-group'; 
+					 } catch(ex) { 
+						 ob.display='block'; 
+					 } 
+				 } 
+				 else { 
+					 ob.display='none'; 
+				 } 
+			 } 
+			 function toggleSubMenu(objId) { 
+				 for(i=1; i<10000; i++) { 
+					 var ob = document.getElementById(objId.concat(i)); 
+					 if(ob === null) { 
+						 break; 
+					 } 
+					 if(ob.style.display === 'none') { 
+						 try { 
+							 ob.style.display='table-row'; 
+						 } catch(ex) { 
+							 ob.style.display='block'; 
+						 } 
+					 } 
+					 else { 
+						 ob.style.display='none'; 
+					 } 
+				 } 
+			 } 
+		 </script> 
+	 </head> 
+
+	 <body> 
+		 <table id='header'> 
+			 <thead> 
+				 <tr class='heading'> 
+					 <th colspan='4' style='font-family:Copperplate Gothic; font-size:1.4em;'> 
+						 Broken Link Validator  - BrokenLinkScenario_Validate_Charbroil_Links_Excel_9_Instance10 Automation Execution Results 
+					 </th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <th>&nbsp;Date&nbsp;&&nbsp;Time</th> 
+					 <th>&nbsp;:&nbsp;31-Dec-2018&nbsp;04:11:03&nbsp;PM</th> 
+					 <th>&nbsp;Iteration&nbsp;Mode</th> 
+					 <th>&nbsp;:&nbsp;RUN_ONE_ITERATION_ONLY</th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <th>&nbsp;Start&nbsp;Iteration</th> 
+					 <th>&nbsp;:&nbsp;1</th> 
+					 <th>&nbsp;End&nbsp;Iteration</th> 
+					 <th>&nbsp;:&nbsp;1</th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <th>&nbsp;Browser/Platform</th> 
+					 <th>&nbsp;:&nbsp;CHROME&nbsp;on&nbsp;WINDOWS</th> 
+					 <th>&nbsp;Execution&nbsp;on</th> 
+					 <th>&nbsp;:&nbsp;Local&nbsp;Machine</th> 
+				 </tr> 
+			 </thead> 
+		 </table> 
+
+		 <table id='main'> 
+			 <thead> 
+				 <tr class='heading'> 
+					 <th>Step No</th> 
+					 <th>Step Name</th> 
+					 <th>Description</th> 
+					 <th>Status</th> 
+					 <th>Step Time</th> 
+					 <th>ScreenShot</th> 
+				 </tr> 
+			 </thead> 
+
+			 <tbody> 
+				 <tr class='section'> 
+					 <td colspan='6' onclick="toggleMenu('Iteration1')">+ Iteration: 1</td> 
+				 </tr> 
+			 </tbody> 
+			 <tbody id='Iteration1' style='display:table-row-group'> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1invokeApplication')">&nbsp;+ invokeApplication</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1invokeApplication1'> 
+					 <td>1</td> 
+					 <td class='justified'>Invoke Application</td> 
+					 <td class='justified'>Application invoked.</td> 
+					 <td>DONE</td> 
+					 <td><small>31-Dec-2018 04:11:05 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1checkAllInputLinks')">&nbsp;+ checkAllInputLinks</td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1Totallinksvalidated282')">&nbsp;+ Total links validated - 282</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated2821'> 
+					 <td>2</td> 
+					 <td class='justified'>https://www.charbroil.com/cook/easy-backyard-barbecued-spareribs/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:11:18 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated2822'> 
+					 <td>3</td> 
+					 <td class='justified'>https://www.charbroil.com/cook/grilling-asparagus-in-foil/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:11:22 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated2823'> 
+					 <td>4</td> 
+					 <td class='justified'>https://www.charbroil.com/cook/wine-marinated-grilled-shish-kebobs/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:11:27 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated2824'> 
+					 <td>5</td> 
+					 <td class='justified'>https://www.charbroil.com/cook/smoked-bbq-ribs-digital-electric-smoker/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:13:15 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated2825'> 
+					 <td>6</td> 
+					 <td class='justified'>https://www.charbroil.com/cook/bacon-wrapped-filet-mignon-compound-butter/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:13:20 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated2826'> 
+					 <td>7</td> 
+					 <td class='justified'>https://www.charbroil.com/cook/bourbon-marinated-smoked-salmon-in-digital-smoker/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:13:24 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated2827'> 
+					 <td>8</td> 
+					 <td class='justified'>https://www.charbroil.com/cook/grilled-scallops-recipe-gas-grill/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:13:35 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated2828'> 
+					 <td>9</td> 
+					 <td class='justified'>https://www.charbroil.com/cook/sirloin-tip-beef-roast/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:13:39 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated2829'> 
+					 <td>10</td> 
+					 <td class='justified'>https://www.charbroil.com/cook/competition-bbq-pulled-pork-on-a-gas-grill/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:13:43 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28210'> 
+					 <td>11</td> 
+					 <td class='justified'>https://www.charbroil.com/cook/smoked-brisket-marinade/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:13:52 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28211'> 
+					 <td>12</td> 
+					 <td class='justified'>https://www.charbroil.com/cook/smoked-pork-chops-apple-onion-compote-digital-smoker/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:13:58 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28212'> 
+					 <td>13</td> 
+					 <td class='justified'>https://www.charbroil.com/cook/smoked-pulled-pork-rub/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:14:05 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28213'> 
+					 <td>14</td> 
+					 <td class='justified'>https://www.charbroil.com/cook/easy-smoked-fish/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:14:45 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28214'> 
+					 <td>15</td> 
+					 <td class='justified'>https://www.charbroil.com/cook/make-jerky-in-an-electric-smoker/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:14:58 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28215'> 
+					 <td>16</td> 
+					 <td class='justified'>https://www.charbroil.com/cook/grilled-brussels-sprouts-with-balsamic-vinaigrette/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:15:06 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28216'> 
+					 <td>17</td> 
+					 <td class='justified'>https://www.charbroil.com/cook/big-easy-southern-thanksgiving-turkey-recipe/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:15:21 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28217'> 
+					 <td>18</td> 
+					 <td class='justified'>https://www.charbroil.com/cook/big-easy-basic-fried-turkey/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:15:29 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28218'> 
+					 <td>19</td> 
+					 <td class='justified'>https://www.charbroil.com/cook/big-easy-fried-thanksgiving-turkey/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:15:39 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28219'> 
+					 <td>20</td> 
+					 <td class='justified'>https://www.charbroil.com/cook/smoked-bbq-boston-butt-in-electric-smoker/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:15:46 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28220'> 
+					 <td>21</td> 
+					 <td class='justified'>https://www.charbroil.com/cook/how-to-cook-a-prime-rib-roast-on-a-gas-grill/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:16:00 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28221'> 
+					 <td>22</td> 
+					 <td class='justified'>https://www.charbroil.com/cook/wine-marinated-grilled-shish-kabobs/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:16:08 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28222'> 
+					 <td>23</td> 
+					 <td class='justified'>https://www.charbroil.com/cook/apple-butter-ribs/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:16:23 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28223'> 
+					 <td>24</td> 
+					 <td class='justified'>https://www.charbroil.com/cook/apple-wood-smoked-pork-loin-digital-smoker/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:16:40 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28224'> 
+					 <td>25</td> 
+					 <td class='justified'>https://www.charbroil.com/cook/bbq-chicken-for-the-beginner/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:16:47 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28225'> 
+					 <td>26</td> 
+					 <td class='justified'>https://www.charbroil.com/cook/apple-wood-smoked-turkey-breast/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:17:00 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28226'> 
+					 <td>27</td> 
+					 <td class='justified'>https://www.charbroil.com/cook/smoked-brisket-rub-2/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:17:07 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28227'> 
+					 <td>28</td> 
+					 <td class='justified'>https://www.charbroil.com/cook/electric-smoker-pulled-pork/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:17:20 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28228'> 
+					 <td>29</td> 
+					 <td class='justified'>https://www.charbroil.com/cook/smoked-brisket-rub/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:17:35 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28229'> 
+					 <td>30</td> 
+					 <td class='justified'>https://www.charbroil.com/cook/smoked-turkey-rub/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:17:42 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28230'> 
+					 <td>31</td> 
+					 <td class='justified'>https://www.charbroil.com/learn/oil-grill-grates/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:17:56 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28231'> 
+					 <td>32</td> 
+					 <td class='justified'>https://www.charbroil.com/learn/courses/smoking-with-the-des/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:18:00 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28232'> 
+					 <td>33</td> 
+					 <td class='justified'>https://www.charbroil.com/cook/smoked-ribs/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:18:12 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28233'> 
+					 <td>34</td> 
+					 <td class='justified'>https://www.charbroil.com/learn/courses/steak-101/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:18:19 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28234'> 
+					 <td>35</td> 
+					 <td class='justified'>https://www.charbroil.com/smartchef-gas-grill-control-panel-work/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:18:24 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28235'> 
+					 <td>36</td> 
+					 <td class='justified'>https://www.charbroil.com/dado-button-status/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:18:37 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28236'> 
+					 <td>37</td> 
+					 <td class='justified'>https://www.charbroil.com/control-panel-light-ring-mean/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:18:42 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28237'> 
+					 <td>38</td> 
+					 <td class='justified'>https://www.charbroil.com/can-use-smartchef-gas-grill-another-location/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:18:49 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28238'> 
+					 <td>39</td> 
+					 <td class='justified'>https://www.charbroil.com/smartchef-gas-grill-cant-find-meat-type-guided-cook/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:18:57 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28239'> 
+					 <td>40</td> 
+					 <td class='justified'>https://www.charbroil.com/grill-using-food-temperature-probe/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:19:02 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28240'> 
+					 <td>41</td> 
+					 <td class='justified'>https://www.charbroil.com/smartchef-gas-grill-firmware-update-failed/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:19:07 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28241'> 
+					 <td>42</td> 
+					 <td class='justified'>https://www.charbroil.com/can-one-account-smartchef-gas-grill/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:19:16 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28242'> 
+					 <td>43</td> 
+					 <td class='justified'>https://www.charbroil.com/operating-systems-char-broil-gas-grill-app-compatible/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:19:22 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28243'> 
+					 <td>44</td> 
+					 <td class='justified'>https://www.charbroil.com/how-do-i-set-up-my-grill-for-use-with-the-app/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:19:27 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28244'> 
+					 <td>45</td> 
+					 <td class='justified'>https://www.charbroil.com/download-smartchef-gas-grill-app/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:19:39 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28245'> 
+					 <td>46</td> 
+					 <td class='justified'>https://www.charbroil.com/learn/courses/gas-grill-basics/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:19:44 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28246'> 
+					 <td>47</td> 
+					 <td class='justified'>https://www.charbroil.com/connectivity-when-configuring-a-new-network-i-am-instructed-to-join-the-dado-network-on-my-smart-device-but-i-get-a-message-saying-unab/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:19:57 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28247'> 
+					 <td>48</td> 
+					 <td class='justified'>https://www.charbroil.com/cooking-cook-times-not-match-recipes/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:20:03 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28248'> 
+					 <td>49</td> 
+					 <td class='justified'>https://www.charbroil.com/how-to-start-a-cook-on-the-simple-smoker/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:23:58 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28249'> 
+					 <td>50</td> 
+					 <td class='justified'>https://www.charbroil.com/how-to-update-the-char-broil-smartchef-firmware/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:24:07 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28250'> 
+					 <td>51</td> 
+					 <td class='justified'>https://www.charbroil.com/how-to-set-up-a-network/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:24:22 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28251'> 
+					 <td>52</td> 
+					 <td class='justified'>https://www.charbroil.com/what-does-the-light-ring-mean/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:24:27 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28252'> 
+					 <td>53</td> 
+					 <td class='justified'>https://www.charbroil.com/what-does-the-dado-button-status-mean/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:24:40 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28253'> 
+					 <td>54</td> 
+					 <td class='justified'>https://www.charbroil.com/use-an-extension-cord/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:24:47 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28254'> 
+					 <td>55</td> 
+					 <td class='justified'>https://www.charbroil.com/can-i-use-my-smoker-at-another-location/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:25:00 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28255'> 
+					 <td>56</td> 
+					 <td class='justified'>https://www.charbroil.com/i-touch-the-screen-on-the-app-and-the-blue-boxes-disappeared/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:25:05 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28256'> 
+					 <td>57</td> 
+					 <td class='justified'>https://www.charbroil.com/my-firmware-update-failed/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:25:18 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28257'> 
+					 <td>58</td> 
+					 <td class='justified'>https://www.charbroil.com/what-operating-systems-is-the-char-broil-smoker-app-compatible-with/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:25:22 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28258'> 
+					 <td>59</td> 
+					 <td class='justified'>https://www.charbroil.com/how-do-i-set-up-my-smoker-for-use-with-my-app/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:25:31 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28259'> 
+					 <td>60</td> 
+					 <td class='justified'>https://www.charbroil.com/where-do-i-download-the-char-broil-app/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:25:37 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28260'> 
+					 <td>61</td> 
+					 <td class='justified'>https://www.charbroil.com/replace-surefire-electronic-ignition-system/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:25:46 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28261'> 
+					 <td>62</td> 
+					 <td class='justified'>https://www.charbroil.com/led-screen-is-hard-to-read/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:25:57 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28262'> 
+					 <td>63</td> 
+					 <td class='justified'>https://www.charbroil.com/door-isnt-sealing/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:26:05 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28263'> 
+					 <td>64</td> 
+					 <td class='justified'>https://www.charbroil.com/electric-smoker-element-isnt-getting-hot/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:26:15 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28264'> 
+					 <td>65</td> 
+					 <td class='justified'>https://www.charbroil.com/electric-smoker-wont-turn-on/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:26:21 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28265'> 
+					 <td>66</td> 
+					 <td class='justified'>https://www.charbroil.com/tripped-gfci-circuit-cooking-with-electric-smoker/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:26:28 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28266'> 
+					 <td>67</td> 
+					 <td class='justified'>https://www.charbroil.com/breaker-tripping-on-electric-smoker/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:26:39 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28267'> 
+					 <td>68</td> 
+					 <td class='justified'>https://www.charbroil.com/use-charcoal-on-the-kettleman/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:26:44 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28268'> 
+					 <td>69</td> 
+					 <td class='justified'>https://www.charbroil.com/grilling-guides/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:26:55 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28269'> 
+					 <td>70</td> 
+					 <td class='justified'>https://www.charbroil.com/char-broil-patio-bistro-gas-grill-recall-information/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:27:02 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28270'> 
+					 <td>71</td> 
+					 <td class='justified'>https://www.charbroil.com/vertical-smoker-recall/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:27:08 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28271'> 
+					 <td>72</td> 
+					 <td class='justified'>https://www.charbroil.com/incorrect-burner-issue/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:27:20 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28272'> 
+					 <td>73</td> 
+					 <td class='justified'>https://www.charbroil.com/preventing-low-flames-on-your-gas-grill/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:27:25 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28273'> 
+					 <td>74</td> 
+					 <td class='justified'>https://www.charbroil.com/preventing-and-stopping-grease-fires/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:27:35 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28274'> 
+					 <td>75</td> 
+					 <td class='justified'>https://www.charbroil.com/when-your-gas-grill-makes-a-humming-sound/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:27:41 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28275'> 
+					 <td>76</td> 
+					 <td class='justified'>https://www.charbroil.com/how-to-light-your-grill-manually/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:27:47 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28276'> 
+					 <td>77</td> 
+					 <td class='justified'>https://www.charbroil.com/preventing-and-stopping-grease-fires-on-your-grill/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:27:58 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28277'> 
+					 <td>78</td> 
+					 <td class='justified'>https://www.charbroil.com/testing-your-grill-for-a-leak/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:28:04 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28278'> 
+					 <td>79</td> 
+					 <td class='justified'>https://www.charbroil.com/flames-blow-out-because-excess-flow-valve-tripped-3/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:28:15 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28279'> 
+					 <td>80</td> 
+					 <td class='justified'>https://www.charbroil.com/grill-isnt-preheating/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:28:20 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28280'> 
+					 <td>81</td> 
+					 <td class='justified'>https://www.charbroil.com/charcoal-temperature-wont-regulate/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:28:27 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28281'> 
+					 <td>82</td> 
+					 <td class='justified'>https://www.charbroil.com/controller-indicator-light-is-not-lit/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:28:37 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28282'> 
+					 <td>83</td> 
+					 <td class='justified'>https://www.charbroil.com/grill-stopped-working/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:28:44 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28283'> 
+					 <td>84</td> 
+					 <td class='justified'>https://www.charbroil.com/residue-in-grill/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:28:54 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28284'> 
+					 <td>85</td> 
+					 <td class='justified'>https://www.charbroil.com/water-smoker-not-working/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:29:00 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28285'> 
+					 <td>86</td> 
+					 <td class='justified'>https://www.charbroil.com/residue-in-smoker/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:29:05 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28286'> 
+					 <td>87</td> 
+					 <td class='justified'>https://www.charbroil.com/grill-isnt-heating/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:29:16 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28287'> 
+					 <td>88</td> 
+					 <td class='justified'>https://www.charbroil.com/rotisserie-overloaded/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:29:21 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28288'> 
+					 <td>89</td> 
+					 <td class='justified'>https://www.charbroil.com/spit-rod-not-turning/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:29:27 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28289'> 
+					 <td>90</td> 
+					 <td class='justified'>https://www.charbroil.com/lid-wont-close-on-rotisserie/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:29:37 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28290'> 
+					 <td>91</td> 
+					 <td class='justified'>https://www.charbroil.com/grill-isnt-heating-or-cooking-properly/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:29:43 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28291'> 
+					 <td>92</td> 
+					 <td class='justified'>https://www.charbroil.com/wires-are-sparking-between-igniter-and-electrode/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:29:47 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28292'> 
+					 <td>93</td> 
+					 <td class='justified'>https://www.charbroil.com/light-grill-with-a-match/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:30:00 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28293'> 
+					 <td>94</td> 
+					 <td class='justified'>https://www.charbroil.com/match-will-not-reach-burners/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:30:05 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28294'> 
+					 <td>95</td> 
+					 <td class='justified'>https://www.charbroil.com/low-flow-with-natural-gas/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:30:16 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28295'> 
+					 <td>96</td> 
+					 <td class='justified'>https://www.charbroil.com/no-gas-flow/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:30:22 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28296'> 
+					 <td>97</td> 
+					 <td class='justified'>https://www.charbroil.com/flames-blow-out-because-excess-flow-valve-tripped/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:30:28 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28297'> 
+					 <td>98</td> 
+					 <td class='justified'>https://www.charbroil.com/sudden-drop-in-gas-flow/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:30:38 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28298'> 
+					 <td>99</td> 
+					 <td class='justified'>https://www.charbroil.com/flames-blow-out-because-you-are-low-on-fuel/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:30:45 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated28299'> 
+					 <td>100</td> 
+					 <td class='justified'>https://www.charbroil.com/flames-blow-out-because-of-wind/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:30:55 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282100'> 
+					 <td>101</td> 
+					 <td class='justified'>https://www.charbroil.com/bad-propane-tank-connection/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:31:01 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282101'> 
+					 <td>102</td> 
+					 <td class='justified'>https://www.charbroil.com/gas-regulator-tripped/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:31:06 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282102'> 
+					 <td>103</td> 
+					 <td class='justified'>https://www.charbroil.com/why-wont-my-grill-light/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:31:16 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282103'> 
+					 <td>104</td> 
+					 <td class='justified'>https://www.charbroil.com/115-1/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:31:24 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282104'> 
+					 <td>105</td> 
+					 <td class='justified'>https://www.charbroil.com/114-1/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:31:34 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282105'> 
+					 <td>106</td> 
+					 <td class='justified'>https://www.charbroil.com/113-1/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:31:42 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282106'> 
+					 <td>107</td> 
+					 <td class='justified'>https://www.charbroil.com/112-1/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:31:46 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282107'> 
+					 <td>108</td> 
+					 <td class='justified'>https://www.charbroil.com/111-1/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:31:58 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282108'> 
+					 <td>109</td> 
+					 <td class='justified'>https://www.charbroil.com/110-1/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:32:03 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282109'> 
+					 <td>110</td> 
+					 <td class='justified'>https://www.charbroil.com/109-1/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:32:07 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282110'> 
+					 <td>111</td> 
+					 <td class='justified'>https://www.charbroil.com/108-1/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:32:18 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282111'> 
+					 <td>112</td> 
+					 <td class='justified'>https://www.charbroil.com/107-1/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:32:22 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282112'> 
+					 <td>113</td> 
+					 <td class='justified'>https://www.charbroil.com/106-1/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:32:29 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282113'> 
+					 <td>114</td> 
+					 <td class='justified'>https://www.charbroil.com/103-2/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:32:37 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282114'> 
+					 <td>115</td> 
+					 <td class='justified'>https://www.charbroil.com/103-1/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:32:42 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282115'> 
+					 <td>116</td> 
+					 <td class='justified'>https://www.charbroil.com/105-1/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:32:47 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282116'> 
+					 <td>117</td> 
+					 <td class='justified'>https://www.charbroil.com/104-1/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:32:58 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282117'> 
+					 <td>118</td> 
+					 <td class='justified'>https://www.charbroil.com/102-1/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:33:04 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282118'> 
+					 <td>119</td> 
+					 <td class='justified'>https://www.charbroil.com/101-2/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:33:13 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282119'> 
+					 <td>120</td> 
+					 <td class='justified'>https://www.charbroil.com/char-broil-temperature-gauge-recall-2/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:33:20 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282120'> 
+					 <td>121</td> 
+					 <td class='justified'>https://www.charbroil.com/attaching-your-propane-tank-to-your-grill/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:33:24 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282121'> 
+					 <td>122</td> 
+					 <td class='justified'>https://www.charbroil.com/70th-anniversary-sweepstakes-rules/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:33:36 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282122'> 
+					 <td>123</td> 
+					 <td class='justified'>https://www.charbroil.com/sweepstakes-rules/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:33:40 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282123'> 
+					 <td>124</td> 
+					 <td class='justified'>https://www.charbroil.com/supply-chains-act/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:33:45 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282124'> 
+					 <td>125</td> 
+					 <td class='justified'>https://www.charbroil.com/smartchef-end-user-agreement/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:33:55 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282125'> 
+					 <td>126</td> 
+					 <td class='justified'>https://www.charbroil.com/home-page/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:34:01 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282126'> 
+					 <td>127</td> 
+					 <td class='justified'>https://www.charbroil.com/recalls/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:34:08 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282127'> 
+					 <td>128</td> 
+					 <td class='justified'>https://www.charbroil.com/shipping-policy/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:34:19 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282128'> 
+					 <td>129</td> 
+					 <td class='justified'>https://www.charbroil.com/return-policy/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:34:24 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282129'> 
+					 <td>130</td> 
+					 <td class='justified'>https://www.charbroil.com/terms-of-use/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:34:35 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282130'> 
+					 <td>131</td> 
+					 <td class='justified'>https://www.charbroil.com/privacy-policy/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:34:39 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282131'> 
+					 <td>132</td> 
+					 <td class='justified'>https://www.charbroil.com/about-char-broil/</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:34:44 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282132'> 
+					 <td>133</td> 
+					 <td class='justified'>https://www.charbroil.com/help/accessories</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:34:55 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282133'> 
+					 <td>134</td> 
+					 <td class='justified'>https://www.charbroil.com/help/accessories/lid-wont-close-on-rotisserie</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:35:02 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282134'> 
+					 <td>135</td> 
+					 <td class='justified'>https://www.charbroil.com/help/accessories/spit-rod-not-turning</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:35:07 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282135'> 
+					 <td>136</td> 
+					 <td class='justified'>https://www.charbroil.com/help/accessories/rotisserie-overloaded</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:35:17 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282136'> 
+					 <td>137</td> 
+					 <td class='justified'>https://www.charbroil.com/help/charcoal</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:35:23 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282137'> 
+					 <td>138</td> 
+					 <td class='justified'>https://www.charbroil.com/help/charcoal/residue-in-grill</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:35:28 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282138'> 
+					 <td>139</td> 
+					 <td class='justified'>https://www.charbroil.com/help/charcoal/charcoal-temperature-wont-regulate</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:35:38 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282139'> 
+					 <td>140</td> 
+					 <td class='justified'>https://www.charbroil.com/help/charcoal/use-charcoal-on-the-kettleman</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:35:46 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282140'> 
+					 <td>141</td> 
+					 <td class='justified'>https://www.charbroil.com/help/electric</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:35:56 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282141'> 
+					 <td>142</td> 
+					 <td class='justified'>https://www.charbroil.com/help/electric/grill-isnt-heating-or-cooking-properly</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:36:02 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282142'> 
+					 <td>143</td> 
+					 <td class='justified'>https://www.charbroil.com/help/electric/grill-isnt-heating</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:36:08 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282143'> 
+					 <td>144</td> 
+					 <td class='justified'>https://www.charbroil.com/help/electric/grill-stopped-working</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:36:19 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282144'> 
+					 <td>145</td> 
+					 <td class='justified'>https://www.charbroil.com/help/electric/controller-indicator-light-is-not-lit</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:36:23 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282145'> 
+					 <td>146</td> 
+					 <td class='justified'>https://www.charbroil.com/help/electric/grill-isnt-preheating</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:36:28 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282146'> 
+					 <td>147</td> 
+					 <td class='justified'>https://www.charbroil.com/help/electric/use-an-extension-cord</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:36:39 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282147'> 
+					 <td>148</td> 
+					 <td class='justified'>https://www.charbroil.com/help/gas</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:36:44 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282148'> 
+					 <td>149</td> 
+					 <td class='justified'>https://www.charbroil.com/help/gas/gas-regulator-tripped</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:36:54 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282149'> 
+					 <td>150</td> 
+					 <td class='justified'>https://www.charbroil.com/help/gas/bad-propane-tank-connection</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:36:59 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282150'> 
+					 <td>151</td> 
+					 <td class='justified'>https://www.charbroil.com/help/gas/flames-blow-out-because-of-wind</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:37:07 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282151'> 
+					 <td>152</td> 
+					 <td class='justified'>https://www.charbroil.com/help/gas/flames-blow-out-because-you-are-low-on-fuel</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:37:18 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282152'> 
+					 <td>153</td> 
+					 <td class='justified'>https://www.charbroil.com/help/gas/flames-blow-out-because-excess-flow-valve-tripped</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:37:23 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282153'> 
+					 <td>154</td> 
+					 <td class='justified'>https://www.charbroil.com/help/gas/low-flow-with-natural-gas</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:37:27 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282154'> 
+					 <td>155</td> 
+					 <td class='justified'>https://www.charbroil.com/help/gas/sudden-drop-in-gas-flow</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:37:37 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282155'> 
+					 <td>156</td> 
+					 <td class='justified'>https://www.charbroil.com/help/gas/no-gas-flow</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:37:42 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282156'> 
+					 <td>157</td> 
+					 <td class='justified'>https://www.charbroil.com/help/gas/match-will-not-reach-burners</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:37:48 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282157'> 
+					 <td>158</td> 
+					 <td class='justified'>https://www.charbroil.com/help/gas/light-grill-with-a-match</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:37:57 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282158'> 
+					 <td>159</td> 
+					 <td class='justified'>https://www.charbroil.com/help/gas/wires-are-sparking-between-igniter-and-electrode</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:38:04 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282159'> 
+					 <td>160</td> 
+					 <td class='justified'>https://www.charbroil.com/help/gas/grill-isnt-heating-or-cooking-properly</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:38:08 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282160'> 
+					 <td>161</td> 
+					 <td class='justified'>https://www.charbroil.com/help/gas/flames-blow-out-because-excess-flow-valve-tripped-3</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:38:18 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282161'> 
+					 <td>162</td> 
+					 <td class='justified'>https://www.charbroil.com/help/gas/preventing-low-flames-on-your-gas-grill</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:38:24 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282162'> 
+					 <td>163</td> 
+					 <td class='justified'>https://www.charbroil.com/help/gas/testing-your-grill-for-a-leak</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:38:36 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282163'> 
+					 <td>164</td> 
+					 <td class='justified'>https://www.charbroil.com/help/gas/when-your-gas-grill-makes-a-humming-sound</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:38:44 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282164'> 
+					 <td>165</td> 
+					 <td class='justified'>https://www.charbroil.com/help/gas/how-to-light-your-grill-manually</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:39:00 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282165'> 
+					 <td>166</td> 
+					 <td class='justified'>https://www.charbroil.com/help/gas/replace-surefire-electronic-ignition-system</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:39:07 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282166'> 
+					 <td>167</td> 
+					 <td class='justified'>https://www.charbroil.com/help/gas/why-wont-my-grill-light</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:39:18 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282167'> 
+					 <td>168</td> 
+					 <td class='justified'>https://www.charbroil.com/help/gas/how-to-inspect-your-propane-tank-seal</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:39:24 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282168'> 
+					 <td>169</td> 
+					 <td class='justified'>https://www.charbroil.com/help/smartchef</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:39:37 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282169'> 
+					 <td>170</td> 
+					 <td class='justified'>https://www.charbroil.com/help/smartchef/use-an-extension-cord</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:39:43 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282170'> 
+					 <td>171</td> 
+					 <td class='justified'>https://www.charbroil.com/help/smartchef/where-do-i-download-the-char-broil-app</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:40:00 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282171'> 
+					 <td>172</td> 
+					 <td class='justified'>https://www.charbroil.com/help/smartchef/how-do-i-set-up-my-smoker-for-use-with-my-app</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:40:17 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282172'> 
+					 <td>173</td> 
+					 <td class='justified'>https://www.charbroil.com/help/smartchef/what-operating-systems-is-the-char-broil-smoker-app-compatible-with</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:40:26 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282173'> 
+					 <td>174</td> 
+					 <td class='justified'>https://www.charbroil.com/help/smartchef/my-firmware-update-failed</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:40:44 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282174'> 
+					 <td>175</td> 
+					 <td class='justified'>https://www.charbroil.com/help/smartchef/i-touch-the-screen-on-the-app-and-the-blue-boxes-disappeared</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:41:04 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282175'> 
+					 <td>176</td> 
+					 <td class='justified'>https://www.charbroil.com/help/smartchef/can-i-use-my-smoker-at-another-location</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:41:22 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282176'> 
+					 <td>177</td> 
+					 <td class='justified'>https://www.charbroil.com/help/smartchef/what-does-the-dado-button-status-mean</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:41:29 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282177'> 
+					 <td>178</td> 
+					 <td class='justified'>https://www.charbroil.com/help/smartchef/what-does-the-light-ring-mean</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:41:45 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282178'> 
+					 <td>179</td> 
+					 <td class='justified'>https://www.charbroil.com/help/smartchef/how-to-set-up-a-network</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:41:59 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282179'> 
+					 <td>180</td> 
+					 <td class='justified'>https://www.charbroil.com/help/smartchef/how-to-update-the-char-broil-smartchef-firmware</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:42:05 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282180'> 
+					 <td>181</td> 
+					 <td class='justified'>https://www.charbroil.com/help/smartchef/how-to-start-a-cook-on-the-simple-smoker</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:42:17 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282181'> 
+					 <td>182</td> 
+					 <td class='justified'>https://www.charbroil.com/help/smartchef/what-are-the-smartchef-presets-for</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:42:24 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282182'> 
+					 <td>183</td> 
+					 <td class='justified'>https://www.charbroil.com/help/smartchef/how-do-i-start-a-cook-with-the-digital-smoker-with-smartchef-technology</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:42:42 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282183'> 
+					 <td>184</td> 
+					 <td class='justified'>https://www.charbroil.com/help/smartchef/can-more-than-one-person-view-or-control-the-smoker-at-the-same-time</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:43:22 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282184'> 
+					 <td>185</td> 
+					 <td class='justified'>https://www.charbroil.com/help/smartchef/what-if-the-weight-in-the-app-doesnt-match-my-meat-weight</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:43:26 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282185'> 
+					 <td>186</td> 
+					 <td class='justified'>https://www.charbroil.com/help/smartchef/presets-in-the-smartchef-digital-electric-smoker</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:43:37 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282186'> 
+					 <td>187</td> 
+					 <td class='justified'>https://www.charbroil.com/help/smartchef/what-do-i-do-if-i-cant-find-my-meat-type-in-a-guided-cook</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:43:42 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282187'> 
+					 <td>188</td> 
+					 <td class='justified'>https://www.charbroil.com/help/smartchef/how-can-i-reset-my-smartchef-smoker</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:43:48 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282188'> 
+					 <td>189</td> 
+					 <td class='justified'>https://www.charbroil.com/help/smartchef/what-do-i-do-if-i-change-my-home-network-settings</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:43:57 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282189'> 
+					 <td>190</td> 
+					 <td class='justified'>https://www.charbroil.com/help/smartchef/can-i-take-my-smartchef-smoker-to-a-friends-house</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:44:02 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282190'> 
+					 <td>191</td> 
+					 <td class='justified'>https://www.charbroil.com/help/smartchef/how-should-i-position-my-smartchef-smoker</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:44:12 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282191'> 
+					 <td>192</td> 
+					 <td class='justified'>https://www.charbroil.com/help/smartchef/what-are-the-presets-in-the-smartchef-simple-smoker</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:44:17 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282192'> 
+					 <td>193</td> 
+					 <td class='justified'>https://www.charbroil.com/help/smartchef/connectivity-cant-connect-smoker-to-home-network-dado-light-is-flashing</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:44:22 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282193'> 
+					 <td>194</td> 
+					 <td class='justified'>https://www.charbroil.com/help/smartchef/connectivity-smoker-is-connected-to-network-dado-light-is-on-and-solid-but-my-smoker-icon-doesnt-show-up-on-the-dashboard</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:44:27 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated282194'> 
+					 <td>195</td> 
+					 <td class='justified'>https://www.charbroil.com/help</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>31-Dec-2018 04:49:58 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+			 </tbody> 
+		 </table> 
+
+		 <table id='footer'> 
+			 <colgroup> 
+				 <col style='width: 25%' /> 
+				 <col style='width: 25%' /> 
+				 <col style='width: 25%' /> 
+				 <col style='width: 25%' /> 
+			 </colgroup> 
+
+			 <tfoot> 
+				 <tr class='heading'> 
+					 <th colspan='4'>Execution Duration: 38 minute(s), 54 second(s)</th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <td class='pass'>&nbsp;Steps passed</td> 
+					 <td class='pass'>&nbsp;: 0</td> 
+					 <td class='fail'>&nbsp;Steps failed</td> 
+					 <td class='fail'>&nbsp;: 194</td> 
+				 </tr> 
+			 </tfoot> 
+		 </table> 
+	 </body> 
+</html>

@@ -1,0 +1,6 @@
+Mar 21, 2019 5:14:54 PM com.gargoylesoftware.htmlunit.html.InputElementFactory createElementNS
+INFO: Bad input type: "email", creating a text input
+Mar 21, 2019 5:14:56 PM org.apache.http.impl.execchain.RetryExec execute
+INFO: I/O exception (java.net.SocketException) caught when processing request to {s}->https://www.googletagmanager.com:443: Connection reset
+Mar 21, 2019 5:14:57 PM org.apache.http.impl.execchain.RetryExec execute
+INFO: Retrying request to {s}->https://www.googletagmanager.com:443

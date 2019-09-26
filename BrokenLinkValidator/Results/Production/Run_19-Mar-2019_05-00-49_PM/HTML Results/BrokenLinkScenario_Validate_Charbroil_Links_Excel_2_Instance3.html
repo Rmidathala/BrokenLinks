@@ -1,0 +1,1279 @@
+<!DOCTYPE html> 
+<html> 
+	 <head> 
+		 <meta charset='UTF-8'> 
+		 <title>Broken Link Validator  - BrokenLinkScenario_Validate_Charbroil_Links_Excel_2_Instance3 Automation Execution Results</title> 
+
+		 <style type='text/css'> 
+			 body { 
+				 background-color: #C1E1A6; 
+				 font-family: Verdana, Geneva, sans-serif; 
+				 text-align: center; 
+			 } 
+
+			 small { 
+				 font-size: 0.7em; 
+			 } 
+
+			 table { 
+				 width: 95%; 
+				 margin-left: auto; 
+				 margin-right: auto; 
+			 } 
+
+			 tr.heading { 
+				 background-color: #A9D0F5; 
+				 color: #000000; 
+				 font-size: 0.9em; 
+				 font-weight: bold; 
+			 } 
+
+			 tr.subheading { 
+				 background-color: #E0E6F8; 
+				 color: #34495E; 
+				 font-weight: bold; 
+				 font-size: 0.9em; 
+				 text-align: justify; 
+			 } 
+
+			 tr.section { 
+				 background-color: #E0E6F8; 
+				 color: #333300; 
+				 cursor: pointer; 
+				 font-weight: bold; 
+				 font-size: 0.9em; 
+				 text-align: justify; 
+			 } 
+
+			 tr.subsection { 
+				 background-color: #EDEEF0; 
+				 cursor: pointer; 
+			 } 
+
+			 tr.content { 
+				 background-color: #EDEEF0; 
+				 color: #000000; 
+				 font-size: 0.9em; 
+				 display: table-row; 
+			 } 
+
+			 td { 
+				 padding: 4px; 
+				 text-align: inherit\0/; 
+				 word-wrap: break-word; 
+				 max-width: 450px; 
+			 } 
+
+			 th { 
+				 padding: 4px; 
+				 text-align: inherit\0/; 
+				 word-break: break-all; 
+				 max-width: 450px; 
+			 } 
+
+			 td.justified { 
+				 text-align: justify; 
+			 } 
+
+			 td.pass { 
+				 font-weight: bold; 
+				 color: green; 
+			 } 
+
+			 td.fail { 
+				 font-weight: bold; 
+				 color: red; 
+			 } 
+
+			 td.done, td.screenshot { 
+				 font-weight: bold; 
+				 color: black; 
+			 } 
+
+			 td.debug { 
+				 font-weight: bold; 
+				 color: blue; 
+			 } 
+
+			 td.warning { 
+				 font-weight: bold; 
+				 color: orange; 
+			 } 
+			 img { 
+				 width:400px; 
+				 height:300px; 
+			 } 
+		 </style> 
+
+		 <script> 
+			 function toggleMenu(objID) { 
+				 if (!document.getElementById) return; 
+				 var ob = document.getElementById(objID).style; 
+				 if(ob.display === 'none') { 
+					 try { 
+						 ob.display='table-row-group'; 
+					 } catch(ex) { 
+						 ob.display='block'; 
+					 } 
+				 } 
+				 else { 
+					 ob.display='none'; 
+				 } 
+			 } 
+			 function toggleSubMenu(objId) { 
+				 for(i=1; i<10000; i++) { 
+					 var ob = document.getElementById(objId.concat(i)); 
+					 if(ob === null) { 
+						 break; 
+					 } 
+					 if(ob.style.display === 'none') { 
+						 try { 
+							 ob.style.display='table-row'; 
+						 } catch(ex) { 
+							 ob.style.display='block'; 
+						 } 
+					 } 
+					 else { 
+						 ob.style.display='none'; 
+					 } 
+				 } 
+			 } 
+		 </script> 
+	 </head> 
+
+	 <body> 
+		 <table id='header'> 
+			 <thead> 
+				 <tr class='heading'> 
+					 <th colspan='4' style='font-family:Copperplate Gothic; font-size:1.4em;'> 
+						 Broken Link Validator  - BrokenLinkScenario_Validate_Charbroil_Links_Excel_2_Instance3 Automation Execution Results 
+					 </th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <th>&nbsp;Date&nbsp;&&nbsp;Time</th> 
+					 <th>&nbsp;:&nbsp;19-Mar-2019&nbsp;05:01:04&nbsp;PM</th> 
+					 <th>&nbsp;Iteration&nbsp;Mode</th> 
+					 <th>&nbsp;:&nbsp;RUN_ONE_ITERATION_ONLY</th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <th>&nbsp;Start&nbsp;Iteration</th> 
+					 <th>&nbsp;:&nbsp;1</th> 
+					 <th>&nbsp;End&nbsp;Iteration</th> 
+					 <th>&nbsp;:&nbsp;1</th> 
+				 </tr> 
+				 <tr class='subheading'> 
+					 <th>&nbsp;Browser/Platform</th> 
+					 <th>&nbsp;:&nbsp;CHROME&nbsp;on&nbsp;WINDOWS</th> 
+					 <th>&nbsp;Execution&nbsp;on</th> 
+					 <th>&nbsp;:&nbsp;Local&nbsp;Machine</th> 
+				 </tr> 
+			 </thead> 
+		 </table> 
+
+		 <table id='main'> 
+			 <thead> 
+				 <tr class='heading'> 
+					 <th>Step No</th> 
+					 <th>Step Name</th> 
+					 <th>Description</th> 
+					 <th>Status</th> 
+					 <th>Step Time</th> 
+					 <th>ScreenShot</th> 
+				 </tr> 
+			 </thead> 
+
+			 <tbody> 
+				 <tr class='section'> 
+					 <td colspan='6' onclick="toggleMenu('Iteration1')">+ Iteration: 1</td> 
+				 </tr> 
+			 </tbody> 
+			 <tbody id='Iteration1' style='display:table-row-group'> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1invokeApplication')">&nbsp;+ invokeApplication</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1invokeApplication1'> 
+					 <td>1</td> 
+					 <td class='justified'>Invoke Application</td> 
+					 <td class='justified'>Application invoked.</td> 
+					 <td>DONE</td> 
+					 <td><small>19-Mar-2019 05:01:17 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1checkAllInputLinks')">&nbsp;+ checkAllInputLinks</td> 
+				 </tr> 
+				 <tr class='subheading subsection'> 
+					 <td colspan='6' onclick="toggleSubMenu('Iteration1Totallinksvalidated700')">&nbsp;+ Total links validated - 700</td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated7001'> 
+					 <td>2</td> 
+					 <td class='justified'>https://www.charbroil.com/controller-29102587</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:01:30 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated7002'> 
+					 <td>3</td> 
+					 <td class='justified'>https://www.charbroil.com/side-handle-29102590</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:01:35 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated7003'> 
+					 <td>4</td> 
+					 <td class='justified'>https://www.charbroil.com/thermal-probe-29102591</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:01:40 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated7004'> 
+					 <td>5</td> 
+					 <td class='justified'>https://www.charbroil.com/smoke-box-frame-29102620</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:01:45 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated7005'> 
+					 <td>6</td> 
+					 <td class='justified'>https://www.charbroil.com/cooking-chamber-29102624</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:01:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated7006'> 
+					 <td>7</td> 
+					 <td class='justified'>https://www.charbroil.com/cooking-grate-29102627</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:01:55 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated7007'> 
+					 <td>8</td> 
+					 <td class='justified'>https://www.charbroil.com/smoker-box-housing-29102630</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:02:00 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated7008'> 
+					 <td>9</td> 
+					 <td class='justified'>https://www.charbroil.com/smoker-box-cover-29102636</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:02:05 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated7009'> 
+					 <td>10</td> 
+					 <td class='justified'>https://www.charbroil.com/rear-leg-set-29102640</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:02:10 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70010'> 
+					 <td>11</td> 
+					 <td class='justified'>https://www.charbroil.com/smoke-chamber-29102658</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:02:15 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70011'> 
+					 <td>12</td> 
+					 <td class='justified'>https://www.charbroil.com/air-tube-29102667</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:02:20 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70012'> 
+					 <td>13</td> 
+					 <td class='justified'>https://www.charbroil.com/door-hinge-29102676</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:02:26 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70013'> 
+					 <td>14</td> 
+					 <td class='justified'>https://www.charbroil.com/door-handle-29102679</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:02:31 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70014'> 
+					 <td>15</td> 
+					 <td class='justified'>https://www.charbroil.com/leg-29102682</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:02:36 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70015'> 
+					 <td>16</td> 
+					 <td class='justified'>https://www.charbroil.com/grease-cup-29102683</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:02:41 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70016'> 
+					 <td>17</td> 
+					 <td class='justified'>https://www.charbroil.com/water-pan-29102687</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:02:46 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70017'> 
+					 <td>18</td> 
+					 <td class='justified'>https://www.charbroil.com/wood-chip-box-29102688</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:02:51 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70018'> 
+					 <td>19</td> 
+					 <td class='justified'>https://www.charbroil.com/wood-chip-box-lid-29102689</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:02:56 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70019'> 
+					 <td>20</td> 
+					 <td class='justified'>https://www.charbroil.com/wire-rack-smoker-water-pan-29102690</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:03:01 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70020'> 
+					 <td>21</td> 
+					 <td class='justified'>https://www.charbroil.com/wire-support-cooking-grate-29102691</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:03:06 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70021'> 
+					 <td>22</td> 
+					 <td class='justified'>https://www.charbroil.com/cooking-grate-29102692</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:03:11 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70022'> 
+					 <td>23</td> 
+					 <td class='justified'>https://www.charbroil.com/side-handle-29102693</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:03:16 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70023'> 
+					 <td>24</td> 
+					 <td class='justified'>https://www.charbroil.com/controller-for-element-29102694</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:03:21 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70024'> 
+					 <td>25</td> 
+					 <td class='justified'>https://www.charbroil.com/heating-element-29102695</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:03:26 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70025'> 
+					 <td>26</td> 
+					 <td class='justified'>https://www.charbroil.com/hardware-pack-29102714</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:03:32 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70026'> 
+					 <td>27</td> 
+					 <td class='justified'>https://www.charbroil.com/lid-29102771</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:03:37 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70027'> 
+					 <td>28</td> 
+					 <td class='justified'>https://www.charbroil.com/firebox-29102772</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:03:42 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70028'> 
+					 <td>29</td> 
+					 <td class='justified'>https://www.charbroil.com/cooking-grate-29102780</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:03:47 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70029'> 
+					 <td>30</td> 
+					 <td class='justified'>https://www.charbroil.com/rear-lift-mechanism-w-lock-29102782</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:03:52 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70030'> 
+					 <td>31</td> 
+					 <td class='justified'>https://www.charbroil.com/vaporizer-bar-29102789</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:03:57 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70031'> 
+					 <td>32</td> 
+					 <td class='justified'>https://www.charbroil.com/grease-tray-29102794</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:04:02 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70032'> 
+					 <td>33</td> 
+					 <td class='justified'>https://www.charbroil.com/ground-connector-29102807</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:04:07 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70033'> 
+					 <td>34</td> 
+					 <td class='justified'>https://www.charbroil.com/foot-29102860</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:04:12 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70034'> 
+					 <td>35</td> 
+					 <td class='justified'>https://www.charbroil.com/control-knob-29102867</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:04:17 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70035'> 
+					 <td>36</td> 
+					 <td class='justified'>https://www.charbroil.com/thermometer-29102869</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:04:22 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70036'> 
+					 <td>37</td> 
+					 <td class='justified'>https://www.charbroil.com/cool-touch-handle-29102876</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:04:27 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70037'> 
+					 <td>38</td> 
+					 <td class='justified'>https://www.charbroil.com/firebox-lid-29102877</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:04:32 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70038'> 
+					 <td>39</td> 
+					 <td class='justified'>https://www.charbroil.com/butterfly-damper-wheel-29102881</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:04:38 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70039'> 
+					 <td>40</td> 
+					 <td class='justified'>https://www.charbroil.com/swing-away-grate-29102882</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:04:43 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70040'> 
+					 <td>41</td> 
+					 <td class='justified'>https://www.charbroil.com/hardware-pack-29102886</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:04:48 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70041'> 
+					 <td>42</td> 
+					 <td class='justified'>https://www.charbroil.com/leg-kit-29102889</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:04:53 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70042'> 
+					 <td>43</td> 
+					 <td class='justified'>https://www.charbroil.com/front-leg-set-29102892</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:04:58 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70043'> 
+					 <td>44</td> 
+					 <td class='justified'>https://www.charbroil.com/rear-leg-set-29102896</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:05:03 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70044'> 
+					 <td>45</td> 
+					 <td class='justified'>https://www.charbroil.com/lower-body-29102902</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:05:08 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70045'> 
+					 <td>46</td> 
+					 <td class='justified'>https://www.charbroil.com/grease-tray-guide-29102904</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:05:13 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70046'> 
+					 <td>47</td> 
+					 <td class='justified'>https://www.charbroil.com/cart-bracket-29102915</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:05:18 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70047'> 
+					 <td>48</td> 
+					 <td class='justified'>https://www.charbroil.com/towel-bar-29102917</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:05:23 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70048'> 
+					 <td>49</td> 
+					 <td class='justified'>https://www.charbroil.com/heat-tent-burner-29102920</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:05:31 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70049'> 
+					 <td>50</td> 
+					 <td class='justified'>https://www.charbroil.com/wind-shield-29102936</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:05:36 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70050'> 
+					 <td>51</td> 
+					 <td class='justified'>https://www.charbroil.com/cooking-grate-29102938</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:05:41 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70051'> 
+					 <td>52</td> 
+					 <td class='justified'>https://www.charbroil.com/warming-rack-29102943</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:05:47 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70052'> 
+					 <td>53</td> 
+					 <td class='justified'>https://www.charbroil.com/front-panel-29102953</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:05:52 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70053'> 
+					 <td>54</td> 
+					 <td class='justified'>https://www.charbroil.com/ignition-module-29102955</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:05:57 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70054'> 
+					 <td>55</td> 
+					 <td class='justified'>https://www.charbroil.com/side-shelf-inner-29102956</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:06:02 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70055'> 
+					 <td>56</td> 
+					 <td class='justified'>https://www.charbroil.com/side-shelf-outer-29102959</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:06:07 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70056'> 
+					 <td>57</td> 
+					 <td class='justified'>https://www.charbroil.com/grill-bottom-29102965</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:06:12 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70057'> 
+					 <td>58</td> 
+					 <td class='justified'>https://www.charbroil.com/front-leg-29102997</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:06:17 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70058'> 
+					 <td>59</td> 
+					 <td class='justified'>https://www.charbroil.com/rear-leg-29103003</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:06:22 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70059'> 
+					 <td>60</td> 
+					 <td class='justified'>https://www.charbroil.com/cooking-grate-29103009</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:06:39 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70060'> 
+					 <td>61</td> 
+					 <td class='justified'>https://www.charbroil.com/grease-tray-29103014</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:06:44 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70061'> 
+					 <td>62</td> 
+					 <td class='justified'>https://www.charbroil.com/wind-shield-29103015</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:06:49 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70062'> 
+					 <td>63</td> 
+					 <td class='justified'>https://www.charbroil.com/warming-rack-29103017</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:06:54 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70063'> 
+					 <td>64</td> 
+					 <td class='justified'>https://www.charbroil.com/top-lid-29103019</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:06:59 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70064'> 
+					 <td>65</td> 
+					 <td class='justified'>https://www.charbroil.com/heat-tent-29103024</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:07:04 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70065'> 
+					 <td>66</td> 
+					 <td class='justified'>https://www.charbroil.com/grill-bottom-29103029</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:07:10 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70066'> 
+					 <td>67</td> 
+					 <td class='justified'>https://www.charbroil.com/cooking-grate-29103041</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:07:15 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70067'> 
+					 <td>68</td> 
+					 <td class='justified'>https://www.charbroil.com/heat-indicator-29103059</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:07:20 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70068'> 
+					 <td>69</td> 
+					 <td class='justified'>https://www.charbroil.com/regulator-29103411</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:07:25 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70069'> 
+					 <td>70</td> 
+					 <td class='justified'>https://www.charbroil.com/leg-right-rear-left-front-29103413</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:07:35 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70070'> 
+					 <td>71</td> 
+					 <td class='justified'>https://www.charbroil.com/leg-right-front-for-ignitor-29103415</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:07:40 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70071'> 
+					 <td>72</td> 
+					 <td class='justified'>https://www.charbroil.com/leg-left-rear-29103416</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:07:45 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70072'> 
+					 <td>73</td> 
+					 <td class='justified'>https://www.charbroil.com/heat-tent-29103420</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:07:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70073'> 
+					 <td>74</td> 
+					 <td class='justified'>https://www.charbroil.com/heat-tent-support-29103421</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:07:55 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70074'> 
+					 <td>75</td> 
+					 <td class='justified'>https://www.charbroil.com/cooking-grate-29103422</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:08:06 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70075'> 
+					 <td>76</td> 
+					 <td class='justified'>https://www.charbroil.com/side-handle-29103423</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:08:11 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70076'> 
+					 <td>77</td> 
+					 <td class='justified'>https://www.charbroil.com/hardware-pack-29103427</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:08:16 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70077'> 
+					 <td>78</td> 
+					 <td class='justified'>https://www.charbroil.com/firebox-29103434</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:08:21 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70078'> 
+					 <td>79</td> 
+					 <td class='justified'>https://www.charbroil.com/heat-shield-29103441</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:08:26 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70079'> 
+					 <td>80</td> 
+					 <td class='justified'>https://www.charbroil.com/bezel-29103483</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:08:31 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70080'> 
+					 <td>81</td> 
+					 <td class='justified'>https://www.charbroil.com/heat-indicator-29103484</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:08:36 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70081'> 
+					 <td>82</td> 
+					 <td class='justified'>https://www.charbroil.com/control-panel-29103488</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:08:41 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70082'> 
+					 <td>83</td> 
+					 <td class='justified'>https://www.charbroil.com/warming-rack-29103492</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:08:46 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70083'> 
+					 <td>84</td> 
+					 <td class='justified'>https://www.charbroil.com/lower-body-29103496</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:08:57 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70084'> 
+					 <td>85</td> 
+					 <td class='justified'>https://www.charbroil.com/grill-lid-29103498</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:09:02 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70085'> 
+					 <td>86</td> 
+					 <td class='justified'>https://www.charbroil.com/lower-body-29103501</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:09:07 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70086'> 
+					 <td>87</td> 
+					 <td class='justified'>https://www.charbroil.com/knob-ignitor-29103559</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:09:12 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70087'> 
+					 <td>88</td> 
+					 <td class='justified'>https://www.charbroil.com/knob-control-29103560</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:09:17 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70088'> 
+					 <td>89</td> 
+					 <td class='justified'>https://www.charbroil.com/burner-29103561</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:09:23 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70089'> 
+					 <td>90</td> 
+					 <td class='justified'>https://www.charbroil.com/wire-rack-smoker-chamber-29103562</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:09:28 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70090'> 
+					 <td>91</td> 
+					 <td class='justified'>https://www.charbroil.com/door-smoker-chamber-29103566</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:09:33 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70091'> 
+					 <td>92</td> 
+					 <td class='justified'>https://www.charbroil.com/burner-housing-29103567</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:09:38 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70092'> 
+					 <td>93</td> 
+					 <td class='justified'>https://www.charbroil.com/door-handle-spring-29103578</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:09:43 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70093'> 
+					 <td>94</td> 
+					 <td class='justified'>https://www.charbroil.com/warming-rack-29103705</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:09:48 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70094'> 
+					 <td>95</td> 
+					 <td class='justified'>https://www.charbroil.com/side-handle-29103707</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:09:53 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70095'> 
+					 <td>96</td> 
+					 <td class='justified'>https://www.charbroil.com/regulator-heat-shield-29103708</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:09:58 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70096'> 
+					 <td>97</td> 
+					 <td class='justified'>https://www.charbroil.com/leg-29103711</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:10:03 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70097'> 
+					 <td>98</td> 
+					 <td class='justified'>https://www.charbroil.com/grease-tray-29103716</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:10:08 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70098'> 
+					 <td>99</td> 
+					 <td class='justified'>https://www.charbroil.com/long-leg-29103800</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:10:13 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated70099'> 
+					 <td>100</td> 
+					 <td class='justified'>https://www.charbroil.com/lid-handle-29103808</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:10:18 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated700100'> 
+					 <td>101</td> 
+					 <td class='justified'>https://www.charbroil.com/lid-handle-bezel-29103809</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:10:23 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated700101'> 
+					 <td>102</td> 
+					 <td class='justified'>https://www.charbroil.com/smoking-rack-electric-bistro-29104077</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:10:28 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated700102'> 
+					 <td>103</td> 
+					 <td class='justified'>https://www.charbroil.com/grill-lid-29104085</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:10:33 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated700103'> 
+					 <td>104</td> 
+					 <td class='justified'>https://www.charbroil.com/top-lid-29104117</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:10:38 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated700104'> 
+					 <td>105</td> 
+					 <td class='justified'>https://www.charbroil.com/heat-shield-control-panel-29104134</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:10:43 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated700105'> 
+					 <td>106</td> 
+					 <td class='justified'>https://www.charbroil.com/control-panel-29104252</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:10:49 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated700106'> 
+					 <td>107</td> 
+					 <td class='justified'>https://www.charbroil.com/heat-tent-center-29104253</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:10:54 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated700107'> 
+					 <td>108</td> 
+					 <td class='justified'>https://www.charbroil.com/grease-tray-rail-29104258</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:10:59 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated700108'> 
+					 <td>109</td> 
+					 <td class='justified'>https://www.charbroil.com/leg-29104259</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:11:04 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated700109'> 
+					 <td>110</td> 
+					 <td class='justified'>https://www.charbroil.com/control-panel-29104262</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:11:09 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated700110'> 
+					 <td>111</td> 
+					 <td class='justified'>https://www.charbroil.com/top-handle-29104264</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:11:14 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated700111'> 
+					 <td>112</td> 
+					 <td class='justified'>https://www.charbroil.com/cooking-grate-29104315</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:11:19 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated700112'> 
+					 <td>113</td> 
+					 <td class='justified'>https://www.charbroil.com/smoker-box-handle-29104319</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:11:24 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated700113'> 
+					 <td>114</td> 
+					 <td class='justified'>https://www.charbroil.com/control-panel-29104345</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:11:29 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated700114'> 
+					 <td>115</td> 
+					 <td class='justified'>https://www.charbroil.com/cart-base-29104353</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:11:34 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated700115'> 
+					 <td>116</td> 
+					 <td class='justified'>https://www.charbroil.com/cart-base-29104409</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:11:39 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated700116'> 
+					 <td>117</td> 
+					 <td class='justified'>https://www.charbroil.com/grill-bottom-29104416</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:11:44 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated700117'> 
+					 <td>118</td> 
+					 <td class='justified'>https://www.charbroil.com/grill-lid-29104486</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:11:50 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated700118'> 
+					 <td>119</td> 
+					 <td class='justified'>https://www.charbroil.com/grill-lid-29104503</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:11:55 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated700119'> 
+					 <td>120</td> 
+					 <td class='justified'>https://www.charbroil.com/control-panel-29104508</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:12:00 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated700120'> 
+					 <td>121</td> 
+					 <td class='justified'>https://www.charbroil.com/lid-bumper-302060001</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:12:05 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated700121'> 
+					 <td>122</td> 
+					 <td class='justified'>https://www.charbroil.com/warming-rack-302070017</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:12:10 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated700122'> 
+					 <td>123</td> 
+					 <td class='justified'>https://www.charbroil.com/cooking-grate-302110024</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:12:15 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated700123'> 
+					 <td>124</td> 
+					 <td class='justified'>https://www.charbroil.com/cooking-grate-302110037</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:12:20 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated700124'> 
+					 <td>125</td> 
+					 <td class='justified'>https://www.charbroil.com/sideburner-302140010</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:12:25 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated700125'> 
+					 <td>126</td> 
+					 <td class='justified'>https://www.charbroil.com/control-knob-302230012</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:12:30 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated700126'> 
+					 <td>127</td> 
+					 <td class='justified'>https://www.charbroil.com/control-knob-3022300153</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:12:36 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated700127'> 
+					 <td>128</td> 
+					 <td class='justified'>https://www.charbroil.com/bezel-f-control-knob-302240001</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:12:41 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated700128'> 
+					 <td>129</td> 
+					 <td class='justified'>https://www.charbroil.com/hose-valve-regulator-assembly-30225001</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:12:46 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated700129'> 
+					 <td>130</td> 
+					 <td class='justified'>https://www.charbroil.com/electronic-ignition-module-302260011</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:12:51 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated700130'> 
+					 <td>131</td> 
+					 <td class='justified'>https://www.charbroil.com/gas-grill-wheel-302450005</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:12:56 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated700131'> 
+					 <td>132</td> 
+					 <td class='justified'>https://www.charbroil.com/axle-rod-302460003</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:13:01 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated700132'> 
+					 <td>133</td> 
+					 <td class='justified'>https://www.charbroil.com/leg-extender-302470076</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:13:06 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated700133'> 
+					 <td>134</td> 
+					 <td class='justified'>https://www.charbroil.com/kit-for-cap-for-smokestack-3312013000w1</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:13:11 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 
+				 <tr class='content' id='Iteration1Totallinksvalidated700134'> 
+					 <td>135</td> 
+					 <td class='justified'>https://www.charbroil.com/3480059-3480059</td> 
+					 <td class='justified'>Connection Timeout.</td> 
+					 <td class='fail'>FAIL</td> 
+					 <td><small>19-Mar-2019 05:13:16 PM</small></td> 
+					 <td> N/A </td> 
+				 </tr> 

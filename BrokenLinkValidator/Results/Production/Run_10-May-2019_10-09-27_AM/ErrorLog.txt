@@ -1,0 +1,4 @@
+May 10, 2019 10:21:40 AM com.gargoylesoftware.htmlunit.html.InputElementFactory createElementNS
+INFO: Bad input type: "email", creating a text input
+May 10, 2019 10:37:23 AM com.gargoylesoftware.htmlunit.html.InputElementFactory createElementNS
+INFO: Bad input type: "email", creating a text input
